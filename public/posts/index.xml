@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Lê Thành Công</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/</link>
         <description>Recent content in Posts on Lê Thành Công</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 26 Dec 2024 23:16:38 +0700</lastBuildDate><atom:link href="http://localhost:53804/LeThanhCong7337_blog.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 26 Dec 2024 23:16:38 +0700</lastBuildDate><atom:link href="http://localhost:53920/LeThanhCong7337_blog.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Thông tin cá nhân</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post10/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post10/</link>
         <pubDate>Thu, 26 Dec 2024 23:16:38 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post10/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post10/</guid>
         <description>&lt;p&gt;Chào bạn,&lt;/p&gt;
 &lt;p&gt;Tôi mong muốn tìm cơ hội thực tập tại một công ty công nghệ để áp dụng kiến thức vào thực tế, đặc biệt trong lĩnh vực phát triển web. Tôi hy vọng học hỏi từ các chuyên gia, trau dồi kỹ năng lập trình và hiểu rõ hơn về quy trình phát triển phần mềm chuyên nghiệp.&lt;/p&gt;
 &lt;h3 id=&#34;thông-tin-cá-nhân&#34;&gt;Thông tin cá nhân
@@ -79,10 +79,10 @@
         </item>
         <item>
         <title>Bài tập java nâng cao</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post9/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post9/</link>
         <pubDate>Thu, 26 Dec 2024 21:50:52 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post9/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post9/</guid>
         <description>&lt;h1 id=&#34;10-bài-tập-java-nâng-cao&#34;&gt;10 Bài Tập Java Nâng Cao
 &lt;/h1&gt;&lt;h2 id=&#34;1-chương-trình-quản-lý-sinh-viên&#34;&gt;1. Chương Trình Quản Lý Sinh Viên
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Xây dựng một chương trình quản lý sinh viên đơn giản.&lt;/p&gt;
@@ -165,10 +165,10 @@
         </item>
         <item>
         <title>Lập trình Java nâng cao</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post8/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post8/</link>
         <pubDate>Thu, 26 Dec 2024 21:42:54 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post8/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post8/</guid>
         <description>&lt;h1 id=&#34;lập-trình-java-nâng-cao&#34;&gt;Lập trình Java nâng cao
 &lt;/h1&gt;&lt;p&gt;Lập trình Java không chỉ đơn giản là việc nắm vững các cú pháp cơ bản, mà còn bao gồm việc hiểu và sử dụng các khái niệm nâng cao để xây dựng các ứng dụng phức tạp và hiệu quả. Bài viết này sẽ giới thiệu một số chủ đề nâng cao trong Java giúp bạn nâng cao kỹ năng lập trình của mình.&lt;/p&gt;
 &lt;h2 id=&#34;1-kế-thừa-inheritance-và-đa-hình-polymorphism&#34;&gt;1. Kế thừa (Inheritance) và Đa hình (Polymorphism)
@@ -346,10 +346,10 @@
         </item>
         <item>
         <title>Lập trình Java cơ bản</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post7/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post7/</link>
         <pubDate>Thu, 26 Dec 2024 21:33:00 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post7/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post7/</guid>
         <description>&lt;h1 id=&#34;lập-trình-java-cơ-bản&#34;&gt;Lập trình Java cơ bản
 &lt;/h1&gt;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay, được sử dụng rộng rãi trong phát triển phần mềm, ứng dụng di động (Android), và các hệ thống lớn. Nếu bạn là người mới bắt đầu học lập trình, Java là một lựa chọn tuyệt vời. Bài viết này sẽ cung cấp cho bạn những kiến thức cơ bản về lập trình Java.&lt;/p&gt;
 &lt;h2 id=&#34;1-cài-đặt-java&#34;&gt;1. Cài đặt Java
@@ -453,10 +453,10 @@
         </item>
         <item>
         <title>Lập trình JavaScript cơ bản</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post6/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post6/</link>
         <pubDate>Thu, 26 Dec 2024 21:18:44 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post6/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post6/</guid>
         <description>&lt;h1 id=&#34;lập-trình-javascript-cơ-bản&#34;&gt;Lập trình JavaScript cơ bản
 &lt;/h1&gt;&lt;p&gt;JavaScript là ngôn ngữ lập trình phổ biến được sử dụng để tạo ra các trang web động và tương tác. Để làm quen với JavaScript, bạn cần nắm vững cú pháp cơ bản. Dưới đây là những khái niệm cơ bản về cú pháp của JavaScript.&lt;/p&gt;
 &lt;h2 id=&#34;1-khai-báo-biến&#34;&gt;1. Khai báo biến
@@ -570,10 +570,10 @@ Ví dụ,&lt;/li&gt;
         </item>
         <item>
         <title>Lộ trình học JavaScript</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post5/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post5/</link>
         <pubDate>Thu, 26 Dec 2024 21:16:20 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post5/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post5/</guid>
         <description>&lt;h1 id=&#34;lộ-trình-học-javascript&#34;&gt;Lộ trình học JavaScript
 &lt;/h1&gt;&lt;p&gt;JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất và không thể thiếu trong phát triển web. JavaScript giúp bạn tạo ra các trang web động, với khả năng tương tác mạnh mẽ. Lộ trình học JavaScript dưới đây sẽ giúp bạn trở thành một lập trình viên JavaScript chuyên nghiệp.&lt;/p&gt;
 &lt;h2 id=&#34;1-bắt-đầu-với-javascript-cơ-bản&#34;&gt;1. Bắt đầu với JavaScript cơ bản
@@ -670,10 +670,10 @@ Ví dụ,&lt;/li&gt;
         </item>
         <item>
         <title>Lộ trình học java</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post4/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post4/</link>
         <pubDate>Thu, 26 Dec 2024 21:13:43 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post4/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post4/</guid>
         <description>&lt;h1 id=&#34;lộ-trình-học-java&#34;&gt;Lộ trình học Java
 &lt;/h1&gt;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay. Được sử dụng rộng rãi trong phát triển ứng dụng web, ứng dụng di động, hệ thống doanh nghiệp, và nhiều lĩnh vực khác, Java có một cộng đồng lập trình viên lớn và năng động. Dưới đây là một lộ trình chi tiết để học Java từ cơ bản đến nâng cao.&lt;/p&gt;
 &lt;h2 id=&#34;1-làm-quen-với-cơ-bản-của-java&#34;&gt;1. Làm quen với cơ bản của Java
@@ -764,10 +764,10 @@ Ví dụ,&lt;/li&gt;
         </item>
         <item>
         <title>Hướng dẫn cài đặt JavaScript</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post3/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post3/</link>
         <pubDate>Thu, 26 Dec 2024 21:09:17 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post3/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post3/</guid>
         <description>&lt;h1 id=&#34;hướng-dẫn-cài-đặt-javascript&#34;&gt;Hướng dẫn cài đặt JavaScript
 &lt;/h1&gt;&lt;p&gt;JavaScript là một ngôn ngữ lập trình phổ biến được sử dụng chủ yếu trong việc phát triển các ứng dụng web và trang web động. Để bắt đầu sử dụng JavaScript, bạn cần cài đặt một số công cụ cơ bản.&lt;/p&gt;
 &lt;h2 id=&#34;bước-1-cài-đặt-trình-duyệt-web&#34;&gt;Bước 1: Cài đặt trình duyệt web
@@ -794,10 +794,10 @@ Ví dụ,&lt;/li&gt;
         </item>
         <item>
         <title>Cách cài đặt Java</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post2/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post2/</link>
         <pubDate>Thu, 26 Dec 2024 21:07:23 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post2/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post2/</guid>
         <description>&lt;h2 id=&#34;cách-cài-đặt-java&#34;&gt;Cách cài đặt Java
 &lt;/h2&gt;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến nhất, được sử dụng rộng rãi trong phát triển ứng dụng di động (Android), web, và phần mềm doanh nghiệp. Dưới đây là hướng dẫn chi tiết về cách cài đặt Java Development Kit (JDK) trên các hệ điều hành phổ biến.&lt;/p&gt;
 &lt;h3 id=&#34;1-cài-đặt-java-trên-windows&#34;&gt;1. Cài đặt Java trên Windows
@@ -837,10 +837,10 @@ Ví dụ,&lt;/li&gt;
         </item>
         <item>
         <title>Giới thiệu về JavaScript</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post1/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post1/</link>
         <pubDate>Thu, 26 Dec 2024 20:57:30 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post1/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post1/</guid>
         <description>&lt;h1 id=&#34;giới-thiệu-về-javascript&#34;&gt;Giới thiệu về JavaScript
 &lt;/h1&gt;&lt;p&gt;JavaScript là một ngôn ngữ lập trình phổ biến, được sử dụng chủ yếu để phát triển các ứng dụng web động. Đây là một trong ba công nghệ chính giúp xây dựng các trang web tương tác (cùng với HTML và CSS). JavaScript đã trở thành ngôn ngữ không thể thiếu trong phát triển web hiện đại và được hỗ trợ trên hầu hết các trình duyệt web.&lt;/p&gt;
 &lt;h3 id=&#34;javascript-là-gì&#34;&gt;&lt;strong&gt;JavaScript là gì?&lt;/strong&gt;
@@ -891,10 +891,10 @@ JavaScript được hỗ trợ trên tất cả các trình duyệt hiện đạ
         </item>
         <item>
         <title>Giới thiệu về Java</title>
-        <link>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post/</link>
+        <link>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post/</link>
         <pubDate>Thu, 26 Dec 2024 20:46:34 +0700</pubDate>
         
-        <guid>http://localhost:53804/LeThanhCong7337_blog.github.io/posts/my-first-post/</guid>
+        <guid>http://localhost:53920/LeThanhCong7337_blog.github.io/posts/my-first-post/</guid>
         <description>&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới, được phát triển bởi Sun Microsystems (nay là Oracle). Java đã ra đời vào năm 1995 và từ đó đến nay đã trở thành ngôn ngữ lập trình hàng đầu trong nhiều lĩnh vực, đặc biệt là trong phát triển ứng dụng web, ứng dụng di động, và hệ thống doanh nghiệp.&lt;/p&gt;
 &lt;h3 id=&#34;tại-sao-chọn-java&#34;&gt;Tại sao chọn Java?
 &lt;/h3&gt;&lt;ol&gt;
