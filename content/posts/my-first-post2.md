@@ -1,9 +1,9 @@
 ---
 date : 2024-12-26T21:07:23+07:00
 draft: false   
-title : 'Cách cài đặt Java'
+title : 'Hướng dẫn cách cài đặt Java'
 ---
-## Cách cài đặt Java
+## Hướng dẫn cách cài đặt Java
 
 Java là một trong những ngôn ngữ lập trình phổ biến nhất, được sử dụng rộng rãi trong phát triển ứng dụng di động (Android), web, và phần mềm doanh nghiệp. Dưới đây là hướng dẫn chi tiết về cách cài đặt Java Development Kit (JDK) trên các hệ điều hành phổ biến.
 
