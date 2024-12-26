@@ -126,7 +126,7 @@ params:
 
     colorScheme:
         toggle: true
-        default: auto
+        default: light
 
     imageProcessing:
         cover:
@@ -134,4 +134,4 @@ params:
         content:
             enabled: true
     pagination:
-        perPage: 9 
+        perPage: 10
