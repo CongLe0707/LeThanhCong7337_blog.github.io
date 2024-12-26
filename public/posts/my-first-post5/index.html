@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Lộ trình học JavaScript JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất và không thể thiếu trong phát triển web. JavaScript giúp bạn tạo ra các trang web động, với khả năng tương tác mạnh mẽ. Lộ trình học JavaScript dưới đây sẽ giúp bạn trở thành một lập trình viên JavaScript chuyên nghiệp.\n1. Bắt đầu với JavaScript cơ bản Trước khi đi sâu vào các khái niệm phức tạp hơn, bạn cần nắm vững các kiến thức cơ bản về JavaScript.\n">
+<title>Lộ trình học JavaScript</title>
+
+<link rel='canonical' href='http://localhost:1313/posts/my-first-post5/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Lộ trình học JavaScript">
+<meta property='og:description' content="Lộ trình học JavaScript JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất và không thể thiếu trong phát triển web. JavaScript giúp bạn tạo ra các trang web động, với khả năng tương tác mạnh mẽ. Lộ trình học JavaScript dưới đây sẽ giúp bạn trở thành một lập trình viên JavaScript chuyên nghiệp.\n1. Bắt đầu với JavaScript cơ bản Trước khi đi sâu vào các khái niệm phức tạp hơn, bạn cần nắm vững các kiến thức cơ bản về JavaScript.\n">
+<meta property='og:url' content='http://localhost:1313/posts/my-first-post5/'>
+<meta property='og:site_name' content='Lê Thành Công'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2024-12-26T21:16:20&#43;07:00'/><meta property='article:modified_time' content='2024-12-26T21:16:20&#43;07:00'/>
+<meta name="twitter:site" content="@@your_twitter_username">
+    <meta name="twitter:creator" content="@@your_twitter_username"><meta name="twitter:title" content="Lộ trình học JavaScript">
+<meta name="twitter:description" content="Lộ trình học JavaScript JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất và không thể thiếu trong phát triển web. JavaScript giúp bạn tạo ra các trang web động, với khả năng tương tác mạnh mẽ. Lộ trình học JavaScript dưới đây sẽ giúp bạn trở thành một lập trình viên JavaScript chuyên nghiệp.\n1. Bắt đầu với JavaScript cơ bản Trước khi đi sâu vào các khái niệm phức tạp hơn, bạn cần nắm vững các kiến thức cơ bản về JavaScript.\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/hehe_hu1702438883502097993.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Lê Thành Công</a></h1>
+            <h2 class="site-description">Web Developer</h2>
+        </div>
+    </header>
+
+    <div class="personal-info">
+        <p><strong>Phone:</strong> &#43;123 456 789</p>
+        <p><strong>Email:</strong> <a href="mailto:thanhcong77@gmail.com">thanhcong77@gmail.com</a></p>
+        <p><strong>Birthdate:</strong> Jul 07, 2003</p>
+    </div>
+
+    <ol class="menu">
+        
+        
+    </ol>
+
+    <ol class="menu-bottom-section">
+        <ol class="menu">
+            <li id="i18n-switch">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                        <option value="http://localhost:1313/" selected></option>
+                    
+                </select>
+            </li>
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </ol>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/my-first-post5/">Lộ trình học JavaScript</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 26, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    5 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="lộ-trình-học-javascript">Lộ trình học JavaScript
+</h1><p>JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất và không thể thiếu trong phát triển web. JavaScript giúp bạn tạo ra các trang web động, với khả năng tương tác mạnh mẽ. Lộ trình học JavaScript dưới đây sẽ giúp bạn trở thành một lập trình viên JavaScript chuyên nghiệp.</p>
+<h2 id="1-bắt-đầu-với-javascript-cơ-bản">1. Bắt đầu với JavaScript cơ bản
+</h2><p>Trước khi đi sâu vào các khái niệm phức tạp hơn, bạn cần nắm vững các kiến thức cơ bản về JavaScript.</p>
+<h3 id="11-cài-đặt-môi-trường">1.1. Cài đặt môi trường
+</h3><p>JavaScript chạy trực tiếp trên trình duyệt, vì vậy bạn không cần phải cài đặt bất kỳ phần mềm nào để bắt đầu. Bạn chỉ cần trình duyệt và một trình soạn thảo mã (như Visual Studio Code) để viết mã JavaScript.</p>
+<h3 id="12-cú-pháp-cơ-bản-của-javascript">1.2. Cú pháp cơ bản của JavaScript
+</h3><ul>
+<li><strong>Biến và kiểu dữ liệu</strong>: JavaScript hỗ trợ các kiểu dữ liệu như string, number, boolean, null, undefined, và object. Hãy học cách khai báo biến bằng <code>var</code>, <code>let</code>, và <code>const</code>.</li>
+<li><strong>Câu lệnh điều kiện</strong>: Sử dụng <code>if</code>, <code>else</code>, và <code>switch</code> để điều khiển luồng chương trình dựa trên điều kiện.</li>
+<li><strong>Vòng lặp</strong>: Các vòng lặp như <code>for</code>, <code>while</code>, và <code>do-while</code> cho phép bạn lặp qua các tập hợp dữ liệu.</li>
+</ul>
+<h3 id="13-các-hàm-và-đối-tượng">1.3. Các hàm và đối tượng
+</h3><ul>
+<li><strong>Hàm</strong>: Học cách khai báo và gọi hàm trong JavaScript.</li>
+<li><strong>Đối tượng</strong>: Làm quen với đối tượng và các phương thức của nó trong JavaScript.</li>
+</ul>
+<h2 id="2-lập-trình-hướng-đối-tượng-oop-trong-javascript">2. Lập trình hướng đối tượng (OOP) trong JavaScript
+</h2><p>JavaScript hỗ trợ lập trình hướng đối tượng (OOP). Dưới đây là các khái niệm cơ bản của OOP trong JavaScript:</p>
+<h3 id="21-các-nguyên-lý-oop">2.1. Các nguyên lý OOP
+</h3><ul>
+<li><strong>Encapsulation (Đóng gói)</strong>: Giới thiệu về cách ẩn thông tin và chỉ cung cấp các phương thức công khai.</li>
+<li><strong>Inheritance (Kế thừa)</strong>: Lớp con có thể kế thừa các thuộc tính và phương thức của lớp cha.</li>
+<li><strong>Polymorphism (Đa hình)</strong>: Các đối tượng có thể có các hành vi khác nhau dù sử dụng cùng một phương thức.</li>
+<li><strong>Abstraction (Trừu tượng)</strong>: Chỉ làm việc với các đối tượng thông qua giao diện của chúng mà không cần phải biết các chi tiết bên trong.</li>
+</ul>
+<h3 id="22-lớp-và-đối-tượng-trong-javascript">2.2. Lớp và đối tượng trong JavaScript
+</h3><ul>
+<li><strong>Class</strong>: JavaScript ES6 hỗ trợ cú pháp khai báo lớp bằng từ khóa <code>class</code>.</li>
+<li><strong>Constructor</strong>: Sử dụng constructor để khởi tạo các đối tượng của lớp.</li>
+</ul>
+<h2 id="3-học-về-các-tính-năng-nâng-cao-của-javascript">3. Học về các tính năng nâng cao của JavaScript
+</h2><p>Khi đã nắm vững các khái niệm cơ bản, bạn có thể bắt đầu học về các tính năng nâng cao trong JavaScript.</p>
+<h3 id="31-asynchronous-javascript-lập-trình-bất-đồng-bộ">3.1. Asynchronous JavaScript (Lập trình bất đồng bộ)
+</h3><ul>
+<li><strong>Callback functions</strong>: Làm quen với các hàm callback để xử lý các tác vụ bất đồng bộ.</li>
+<li><strong>Promises</strong>: Hiểu về promises và cách chúng giúp xử lý mã bất đồng bộ dễ dàng hơn.</li>
+<li><strong>Async/Await</strong>: Học cách sử dụng <code>async</code> và <code>await</code> để làm mã bất đồng bộ trở nên đồng bộ hơn.</li>
+</ul>
+<h3 id="32-dom-manipulation">3.2. DOM Manipulation
+</h3><ul>
+<li><strong>DOM</strong>: Học cách sử dụng JavaScript để tương tác với DOM (Document Object Model) nhằm thay đổi nội dung và cấu trúc của trang web.</li>
+<li><strong>Event Handling</strong>: Làm quen với các sự kiện (click, hover, etc.) và cách lắng nghe và xử lý chúng.</li>
+</ul>
+<h3 id="33-es6-và-các-tính-năng-mới">3.3. ES6 và các tính năng mới
+</h3><ul>
+<li><strong>Arrow functions</strong>: Cách sử dụng các hàm mũi tên để viết mã ngắn gọn hơn.</li>
+<li><strong>Template literals</strong>: Học cách sử dụng dấu `` để tạo các chuỗi động.</li>
+<li><strong>Destructuring</strong>: Cách trích xuất dữ liệu từ các mảng và đối tượng.</li>
+<li><strong>Modules</strong>: Tìm hiểu về module trong JavaScript và cách sử dụng <code>import</code> và <code>export</code> để chia sẻ mã giữa các file.</li>
+</ul>
+<h2 id="4-xây-dựng-ứng-dụng-web-với-javascript">4. Xây dựng ứng dụng web với JavaScript
+</h2><p>Khi bạn đã học đủ kiến thức cơ bản và nâng cao, bạn có thể bắt đầu xây dựng các ứng dụng web thực tế.</p>
+<h3 id="41-ứng-dụng-web-tĩnh">4.1. Ứng dụng web tĩnh
+</h3><p>Bắt đầu với một vài ứng dụng web tĩnh đơn giản như:</p>
+<ul>
+<li>Trang web cá nhân</li>
+<li>Ứng dụng đồng hồ đếm ngược</li>
+<li>Ứng dụng quản lý danh bạ</li>
+</ul>
+<h3 id="42-ứng-dụng-web-động">4.2. Ứng dụng web động
+</h3><ul>
+<li><strong>Ajax</strong>: Sử dụng Ajax để tải dữ liệu từ máy chủ mà không cần làm mới trang.</li>
+<li><strong>Fetch API</strong>: Học cách sử dụng Fetch API để lấy dữ liệu từ máy chủ và hiển thị lên trang.</li>
+</ul>
+<h3 id="43-xây-dựng-spa-với-reactjs-hoặc-vuejs">4.3. Xây dựng SPA với React.js hoặc Vue.js
+</h3><p>Học các framework và thư viện JavaScript như <strong>React.js</strong> hoặc <strong>Vue.js</strong> để phát triển các ứng dụng web động (Single Page Application - SPA).</p>
+<h2 id="5-học-về-nodejs">5. Học về Node.js
+</h2><p>Node.js là một môi trường runtime JavaScript giúp bạn chạy JavaScript ở phía máy chủ. Với Node.js, bạn có thể phát triển ứng dụng phía máy chủ (backend) sử dụng JavaScript.</p>
+<h3 id="51-cài-đặt-và-cấu-hình-nodejs">5.1. Cài đặt và cấu hình Node.js
+</h3><ul>
+<li>Tải và cài đặt Node.js từ trang chủ <a class="link" href="https://nodejs.org"  target="_blank" rel="noopener"
+    >Node.js</a>.</li>
+<li>Học cách sử dụng <code>npm</code> (Node Package Manager) để cài đặt các thư viện và công cụ.</li>
+</ul>
+<h3 id="52-xây-dựng-ứng-dụng-backend-với-expressjs">5.2. Xây dựng ứng dụng backend với Express.js
+</h3><ul>
+<li>Tìm hiểu về Express.js, một framework phổ biến để xây dựng API và ứng dụng web backend với Node.js.</li>
+<li>Cấu hình routing, middleware, và kết nối với cơ sở dữ liệu.</li>
+</ul>
+<h2 id="6-tiến-xa-hơn-với-javascript">6. Tiến xa hơn với JavaScript
+</h2><p>Khi bạn đã có kiến thức vững vàng về JavaScript, bạn có thể tiếp tục học các chủ đề nâng cao hơn:</p>
+<h3 id="61-progressive-web-apps-pwa">6.1. Progressive Web Apps (PWA)
+</h3><p>Tìm hiểu cách tạo các ứng dụng web có thể hoạt động như ứng dụng di động, ngay cả khi không có kết nối Internet.</p>
+<h3 id="62-webassembly">6.2. WebAssembly
+</h3><p>Học về WebAssembly để chạy các ngôn ngữ lập trình khác trên trình duyệt, giúp tăng hiệu suất ứng dụng web.</p>
+<h3 id="63-kiểm-thử-ứng-dụng-javascript">6.3. Kiểm thử ứng dụng JavaScript
+</h3><p>Học cách kiểm thử mã JavaScript với các công cụ như Jest, Mocha, và Chai.</p>
+<h3 id="64-tối-ưu-hóa-hiệu-suất">6.4. Tối ưu hóa hiệu suất
+</h3><p>Tìm hiểu cách tối ưu hóa mã JavaScript để ứng dụng của bạn nhanh và hiệu quả hơn.</p>
+<h2 id="kết-luận">Kết luận
+</h2><p>JavaScript là một ngôn ngữ cực kỳ mạnh mẽ, và việc học JavaScript mở ra rất nhiều cơ hội trong việc phát triển web và ứng dụng. Với lộ trình học này, bạn sẽ có thể phát triển các ứng dụng web đầy đủ tính năng, từ giao diện người dùng (frontend) đến hệ thống máy chủ (backend). Hãy bắt đầu học và thực hành ngay hôm nay để trở thành một lập trình viên JavaScript giỏi!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Lê Thành Công
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.7b9eadc5b8d9e31a42d738a8c83ca7c413bea7c10e273333e436a75ee4ce5d25.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

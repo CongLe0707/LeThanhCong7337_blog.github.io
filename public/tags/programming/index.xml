@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Programming on My New Hugo Site</title>
+        <link>http://localhost:1313/tags/programming/</link>
+        <description>Recent content in Programming on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 26 Dec 2024 14:35:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Giới thiệu về Java</title>
+        <link>http://localhost:1313/posts/bai1/</link>
+        <pubDate>Thu, 26 Dec 2024 14:35:00 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/bai1/</guid>
+        <description>&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới, được phát triển bởi Sun Microsystems (nay là Oracle). Java đã ra đời vào năm 1995 và từ đó đến nay đã trở thành ngôn ngữ lập trình hàng đầu trong nhiều lĩnh vực, đặc biệt là trong phát triển ứng dụng web, ứng dụng di động, và hệ thống doanh nghiệp.&lt;/p&gt;
+&lt;h3 id=&#34;tại-sao-chọn-java&#34;&gt;Tại sao chọn Java?
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Khả năng di động&lt;/strong&gt;: Java được thiết kế với nguyên lý &amp;ldquo;Viết một lần, chạy mọi nơi&amp;rdquo;. Điều này có nghĩa là một ứng dụng Java có thể chạy trên bất kỳ nền tảng nào có Java Virtual Machine (JVM), giúp các ứng dụng Java có tính di động cao.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ngôn ngữ hướng đối tượng&lt;/strong&gt;: Java sử dụng mô hình lập trình hướng đối tượng (OOP), giúp tổ chức mã nguồn một cách hiệu quả và dễ dàng bảo trì.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Thư viện phong phú&lt;/strong&gt;: Java cung cấp một lượng lớn các thư viện và API hỗ trợ các tác vụ khác nhau, từ xử lý tệp tin, kết nối cơ sở dữ liệu đến xây dựng giao diện người dùng.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;các-khái-niệm-cơ-bản-trong-java&#34;&gt;Các khái niệm cơ bản trong Java
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Biến&lt;/strong&gt;: Là nơi lưu trữ dữ liệu trong bộ nhớ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lớp (Class)&lt;/strong&gt;: Là khuôn mẫu để tạo đối tượng trong Java.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đối tượng (Object)&lt;/strong&gt;: Là thể hiện của một lớp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phương thức (Method)&lt;/strong&gt;: Là các hàm hoặc hành động mà đối tượng có thể thực hiện.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ví-dụ-đơn-giản-về-chương-trình-java&#34;&gt;Ví dụ đơn giản về chương trình Java
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

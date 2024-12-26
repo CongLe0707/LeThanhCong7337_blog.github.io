@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Lập trình Java cơ bản Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay, được sử dụng rộng rãi trong phát triển phần mềm, ứng dụng di động (Android), và các hệ thống lớn. Nếu bạn là người mới bắt đầu học lập trình, Java là một lựa chọn tuyệt vời. Bài viết này sẽ cung cấp cho bạn những kiến thức cơ bản về lập trình Java.\n">
+<title>Lập trình Java cơ bản</title>
+
+<link rel='canonical' href='http://localhost:1313/posts/my-first-post7/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Lập trình Java cơ bản">
+<meta property='og:description' content="Lập trình Java cơ bản Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay, được sử dụng rộng rãi trong phát triển phần mềm, ứng dụng di động (Android), và các hệ thống lớn. Nếu bạn là người mới bắt đầu học lập trình, Java là một lựa chọn tuyệt vời. Bài viết này sẽ cung cấp cho bạn những kiến thức cơ bản về lập trình Java.\n">
+<meta property='og:url' content='http://localhost:1313/posts/my-first-post7/'>
+<meta property='og:site_name' content='Lê Thành Công'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2024-12-26T21:33:00&#43;07:00'/><meta property='article:modified_time' content='2024-12-26T21:33:00&#43;07:00'/>
+<meta name="twitter:site" content="@@your_twitter_username">
+    <meta name="twitter:creator" content="@@your_twitter_username"><meta name="twitter:title" content="Lập trình Java cơ bản">
+<meta name="twitter:description" content="Lập trình Java cơ bản Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay, được sử dụng rộng rãi trong phát triển phần mềm, ứng dụng di động (Android), và các hệ thống lớn. Nếu bạn là người mới bắt đầu học lập trình, Java là một lựa chọn tuyệt vời. Bài viết này sẽ cung cấp cho bạn những kiến thức cơ bản về lập trình Java.\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/hehe_hu1702438883502097993.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Lê Thành Công</a></h1>
+            <h2 class="site-description">Web Developer</h2>
+        </div>
+    </header>
+
+    <div class="personal-info">
+        <p><strong>Phone:</strong> &#43;123 456 789</p>
+        <p><strong>Email:</strong> <a href="mailto:thanhcong77@gmail.com">thanhcong77@gmail.com</a></p>
+        <p><strong>Birthdate:</strong> Jul 07, 2003</p>
+    </div>
+
+    <ol class="menu">
+        
+        
+    </ol>
+
+    <ol class="menu-bottom-section">
+        <ol class="menu">
+            <li id="i18n-switch">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                        <option value="http://localhost:1313/" selected></option>
+                    
+                </select>
+            </li>
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </ol>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/my-first-post7/">Lập trình Java cơ bản</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 26, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="lập-trình-java-cơ-bản">Lập trình Java cơ bản
+</h1><p>Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay, được sử dụng rộng rãi trong phát triển phần mềm, ứng dụng di động (Android), và các hệ thống lớn. Nếu bạn là người mới bắt đầu học lập trình, Java là một lựa chọn tuyệt vời. Bài viết này sẽ cung cấp cho bạn những kiến thức cơ bản về lập trình Java.</p>
+<h2 id="1-cài-đặt-java">1. Cài đặt Java
+</h2><p>Trước khi bắt đầu lập trình Java, bạn cần cài đặt Java Development Kit (JDK). JDK là bộ công cụ cần thiết để phát triển và biên dịch các chương trình Java.</p>
+<h3 id="các-bước-cài-đặt">Các bước cài đặt:
+</h3><ol>
+<li>Tải JDK từ trang chính thức của Oracle: <a class="link" href="https://www.oracle.com/java/technologies/javase-jdk15-downloads.html"  target="_blank" rel="noopener"
+    >Tải JDK</a>.</li>
+<li>Cài đặt JDK vào máy tính của bạn và thêm <code>JAVA_HOME</code> vào biến môi trường (Environment Variables).</li>
+<li>Kiểm tra cài đặt bằng cách mở Command Prompt (Windows) hoặc Terminal (Mac/Linux) và chạy lệnh sau:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>java -version
+</span></span></code></pre></div></li>
+</ol>
+<p>Nếu Java đã được cài đặt thành công, bạn sẽ thấy thông tin phiên bản Java.</p>
+<h2 id="2-cấu-trúc-một-chương-trình-java">2. Cấu trúc một chương trình Java
+</h2><p>Một chương trình Java cơ bản bao gồm các phần chính: khai báo lớp (class), phương thức chính (main method), và các câu lệnh thực thi. Dưới đây là ví dụ về một chương trình Java đơn giản:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Chào thế giới!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="3-các-kiểu-dữ-liệu-trong-java">3. Các kiểu dữ liệu trong Java
+</h2><p>Java là ngôn ngữ lập trình kiểu dữ liệu tĩnh, có nghĩa là bạn phải chỉ định kiểu dữ liệu khi khai báo biến. Các kiểu dữ liệu cơ bản trong Java bao gồm:</p>
+<ul>
+<li><strong><code>int</code></strong>: Kiểu số nguyên (ví dụ: int age = 30;).</li>
+<li><strong><code>double</code></strong>: Kiểu số thực (ví dụ: double price = 10.99;).</li>
+<li><strong><code>boolean</code></strong>: Kiểu giá trị logic (ví dụ: boolean isActive = true;).</li>
+<li><strong><code>char</code></strong>: Kiểu ký tự (ví dụ: char grade = &lsquo;A&rsquo;;).</li>
+<li><strong><code>String</code></strong>: Kiểu chuỗi (ví dụ: String name = &ldquo;John&rdquo;;).</li>
+</ul>
+<h2 id="4-câu-lệnh-điều-kiện-if-else">4. Câu lệnh điều kiện (if-else)
+</h2><p>Câu lệnh điều kiện cho phép bạn thực hiện các quyết định dựa trên điều kiện. Dưới đây là ví dụ về cách sử dụng **<code>if-else </code>**trong Java:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> age <span style="color:#f92672">=</span> 20;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (age <span style="color:#f92672">&gt;=</span> 18) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Bạn đủ tuổi trưởng thành.&#34;</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Bạn chưa đủ tuổi trưởng thành.&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="5-vòng-lặp-loops">5. Vòng lặp (Loops)
+</h2><p>Java hỗ trợ ba loại vòng lặp cơ bản: for, while, và do-while.</p>
+<ul>
+<li>Vòng lặp for:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0; i <span style="color:#f92672">&lt;</span> 5; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(i);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>Vòng lặp while:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (i <span style="color:#f92672">&lt;</span> 5) {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(i);
+</span></span><span style="display:flex;"><span>    i<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>Vòng lặp do-while:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">do</span> {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(i);
+</span></span><span style="display:flex;"><span>    i<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">while</span> (i <span style="color:#f92672">&lt;</span> 5);
+</span></span></code></pre></div><h2 id="6-hàm-methods">6. Hàm (Methods)
+</h2><p>Hàm (hay phương thức) trong Java là một khối mã thực hiện một tác vụ cụ thể. Bạn có thể khai báo hàm bằng cách sử dụng cú pháp sau:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Calculator</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> add(5, 3);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Kết quả là: &#34;</span> <span style="color:#f92672">+</span> result);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="7-lớp-và-đối-tượng-classes-and-objects">7. Lớp và Đối tượng (Classes and Objects)
+</h2><p>Trong Java, mọi thứ đều là đối tượng. Để sử dụng đối tượng, bạn cần tạo một lớp (class), trong đó định nghĩa các thuộc tính và phương thức của đối tượng.</p>
+<p>Ví dụ:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Dog</span> {
+</span></span><span style="display:flex;"><span>    String name;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> age;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">bark</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; đang sủa!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        Dog dog1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Dog();
+</span></span><span style="display:flex;"><span>        dog1.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Buddy&#34;</span>;
+</span></span><span style="display:flex;"><span>        dog1.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> 3;
+</span></span><span style="display:flex;"><span>        dog1.<span style="color:#a6e22e">bark</span>(); <span style="color:#75715e">// Kết quả sẽ là &#39;Buddy đang sủa!&#39;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="kết-luận">Kết luận
+</h2><p>Java là một ngôn ngữ lập trình mạnh mẽ và dễ học, phù hợp cho cả người mới bắt đầu và các lập trình viên có kinh nghiệm. Bằng cách nắm vững các cú pháp cơ bản và thực hành liên tục, bạn sẽ trở thành một lập trình viên Java giỏi.</p>
+<p>Hãy tiếp tục tìm hiểu các chủ đề nâng cao hơn như kế thừa, đa hình, và xử lý ngoại lệ để phát triển kỹ năng lập trình của mình!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Lê Thành Công
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.7b9eadc5b8d9e31a42d738a8c83ca7c413bea7c10e273333e436a75ee4ce5d25.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

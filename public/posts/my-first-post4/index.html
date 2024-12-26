@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Lộ trình học Java Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay. Được sử dụng rộng rãi trong phát triển ứng dụng web, ứng dụng di động, hệ thống doanh nghiệp, và nhiều lĩnh vực khác, Java có một cộng đồng lập trình viên lớn và năng động. Dưới đây là một lộ trình chi tiết để học Java từ cơ bản đến nâng cao.\n">
+<title>Lộ trình học java</title>
+
+<link rel='canonical' href='http://localhost:1313/posts/my-first-post4/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Lộ trình học java">
+<meta property='og:description' content="Lộ trình học Java Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay. Được sử dụng rộng rãi trong phát triển ứng dụng web, ứng dụng di động, hệ thống doanh nghiệp, và nhiều lĩnh vực khác, Java có một cộng đồng lập trình viên lớn và năng động. Dưới đây là một lộ trình chi tiết để học Java từ cơ bản đến nâng cao.\n">
+<meta property='og:url' content='http://localhost:1313/posts/my-first-post4/'>
+<meta property='og:site_name' content='Lê Thành Công'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2024-12-26T21:13:43&#43;07:00'/><meta property='article:modified_time' content='2024-12-26T21:13:43&#43;07:00'/>
+<meta name="twitter:site" content="@@your_twitter_username">
+    <meta name="twitter:creator" content="@@your_twitter_username"><meta name="twitter:title" content="Lộ trình học java">
+<meta name="twitter:description" content="Lộ trình học Java Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay. Được sử dụng rộng rãi trong phát triển ứng dụng web, ứng dụng di động, hệ thống doanh nghiệp, và nhiều lĩnh vực khác, Java có một cộng đồng lập trình viên lớn và năng động. Dưới đây là một lộ trình chi tiết để học Java từ cơ bản đến nâng cao.\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/hehe_hu1702438883502097993.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Lê Thành Công</a></h1>
+            <h2 class="site-description">Web Developer</h2>
+        </div>
+    </header>
+
+    <div class="personal-info">
+        <p><strong>Phone:</strong> &#43;123 456 789</p>
+        <p><strong>Email:</strong> <a href="mailto:thanhcong77@gmail.com">thanhcong77@gmail.com</a></p>
+        <p><strong>Birthdate:</strong> Jul 07, 2003</p>
+    </div>
+
+    <ol class="menu">
+        
+        
+    </ol>
+
+    <ol class="menu-bottom-section">
+        <ol class="menu">
+            <li id="i18n-switch">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                        <option value="http://localhost:1313/" selected></option>
+                    
+                </select>
+            </li>
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </ol>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/my-first-post4/">Lộ trình học java</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 26, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    5 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="lộ-trình-học-java">Lộ trình học Java
+</h1><p>Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay. Được sử dụng rộng rãi trong phát triển ứng dụng web, ứng dụng di động, hệ thống doanh nghiệp, và nhiều lĩnh vực khác, Java có một cộng đồng lập trình viên lớn và năng động. Dưới đây là một lộ trình chi tiết để học Java từ cơ bản đến nâng cao.</p>
+<h2 id="1-làm-quen-với-cơ-bản-của-java">1. Làm quen với cơ bản của Java
+</h2><p>Trước khi bắt đầu với Java, bạn cần hiểu các khái niệm cơ bản về lập trình:</p>
+<h3 id="11-cài-đặt-môi-trường-phát-triển">1.1. Cài đặt môi trường phát triển
+</h3><ul>
+<li><strong>Tải và cài đặt Java Development Kit (JDK)</strong>: Java cần một môi trường phát triển để biên dịch và chạy mã. Bạn cần cài đặt JDK từ <a class="link" href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html"  target="_blank" rel="noopener"
+    >trang chủ Oracle</a>.</li>
+<li><strong>Cài đặt IDE</strong>: Các công cụ như IntelliJ IDEA, Eclipse, hoặc NetBeans giúp việc lập trình Java trở nên dễ dàng và hiệu quả hơn.</li>
+</ul>
+<h3 id="12-hiểu-cú-pháp-cơ-bản">1.2. Hiểu cú pháp cơ bản
+</h3><ul>
+<li><strong>Biến và kiểu dữ liệu</strong>: Java có các kiểu dữ liệu cơ bản như int, double, boolean, char, String, v.v.</li>
+<li><strong>Câu lệnh điều kiện</strong>: Sử dụng <code>if</code>, <code>else</code>, <code>switch</code> để kiểm tra và thực hiện các điều kiện trong chương trình.</li>
+<li><strong>Vòng lặp</strong>: Sử dụng <code>for</code>, <code>while</code>, <code>do-while</code> để lặp qua các phần tử hoặc điều kiện.</li>
+</ul>
+<h3 id="13-các-khái-niệm-cơ-bản-khác">1.3. Các khái niệm cơ bản khác
+</h3><ul>
+<li><strong>Mảng</strong>: Làm quen với việc sử dụng mảng trong Java để lưu trữ tập hợp các giá trị.</li>
+<li><strong>Phương thức</strong>: Học cách khai báo và gọi các phương thức trong Java để tổ chức mã và tái sử dụng.</li>
+<li><strong>Lớp và đối tượng</strong>: Làm quen với lập trình hướng đối tượng (OOP) và cách định nghĩa các lớp và đối tượng.</li>
+</ul>
+<h2 id="2-làm-quen-với-lập-trình-hướng-đối-tượng-oop">2. Làm quen với lập trình hướng đối tượng (OOP)
+</h2><p>Java là một ngôn ngữ lập trình hướng đối tượng (OOP). Hiểu các nguyên lý cơ bản của OOP là một phần quan trọng trong việc học Java.</p>
+<h3 id="21-các-nguyên-lý-oop">2.1. Các nguyên lý OOP
+</h3><ul>
+<li><strong>Encapsulation (Đóng gói)</strong>: Giới thiệu về việc ẩn thông tin chi tiết và chỉ cung cấp các phương thức công khai.</li>
+<li><strong>Inheritance (Kế thừa)</strong>: Cách tạo các lớp con kế thừa các thuộc tính và phương thức từ lớp cha.</li>
+<li><strong>Polymorphism (Đa hình)</strong>: Sử dụng phương thức có cùng tên nhưng có thể có các hành vi khác nhau tùy thuộc vào đối tượng.</li>
+<li><strong>Abstraction (Trừu tượng)</strong>: Giúp ẩn các chi tiết phức tạp và chỉ cung cấp giao diện đơn giản.</li>
+</ul>
+<h3 id="22-tìm-hiểu-về-lớp-và-đối-tượng">2.2. Tìm hiểu về lớp và đối tượng
+</h3><ul>
+<li><strong>Khởi tạo đối tượng</strong>: Cách tạo và sử dụng đối tượng từ lớp.</li>
+<li><strong>Constructor</strong>: Phương thức đặc biệt để khởi tạo đối tượng.</li>
+</ul>
+<h2 id="3-học-các-thư-viện-và-framework-java-phổ-biến">3. Học các thư viện và framework Java phổ biến
+</h2><p>Sau khi bạn đã nắm vững cú pháp cơ bản của Java và các nguyên lý OOP, hãy bắt đầu tìm hiểu về các thư viện và framework giúp bạn xây dựng ứng dụng mạnh mẽ và dễ dàng hơn.</p>
+<h3 id="31-thư-viện-java-cơ-bản">3.1. Thư viện Java cơ bản
+</h3><ul>
+<li><strong>Java Collections Framework</strong>: Tìm hiểu về các cấu trúc dữ liệu như List, Set, Map và cách sử dụng chúng để quản lý và xử lý dữ liệu.</li>
+<li><strong>Java Streams</strong>: Học cách sử dụng Stream API để xử lý dữ liệu theo cách hàm (functional).</li>
+<li><strong>Java Date/Time API</strong>: Làm quen với cách làm việc với ngày và giờ trong Java.</li>
+</ul>
+<h3 id="32-các-framework-phổ-biến">3.2. Các framework phổ biến
+</h3><ul>
+<li><strong>Spring Framework</strong>: Một trong những framework phổ biến nhất để phát triển ứng dụng Java. Spring giúp bạn dễ dàng phát triển các ứng dụng web và dịch vụ RESTful.</li>
+<li><strong>Hibernate</strong>: Thư viện ORM (Object Relational Mapping) giúp tương tác với cơ sở dữ liệu SQL.</li>
+<li><strong>JavaFX</strong>: Framework để phát triển ứng dụng GUI (Giao diện người dùng đồ họa) cho desktop.</li>
+</ul>
+<h2 id="4-phát-triển-ứng-dụng-thực-tế">4. Phát triển ứng dụng thực tế
+</h2><p>Khi bạn đã nắm vững các khái niệm cơ bản và framework, hãy bắt đầu xây dựng các ứng dụng Java thực tế.</p>
+<h3 id="41-xây-dựng-ứng-dụng-console">4.1. Xây dựng ứng dụng Console
+</h3><p>Bắt đầu với các ứng dụng console nhỏ như:</p>
+<ul>
+<li>Quản lý danh bạ</li>
+<li>Quản lý thư viện sách</li>
+<li>Quản lý ngân hàng</li>
+</ul>
+<h3 id="42-xây-dựng-ứng-dụng-web-với-spring-boot">4.2. Xây dựng ứng dụng web với Spring Boot
+</h3><p>Spring Boot là một framework phổ biến giúp phát triển ứng dụng web nhanh chóng. Hãy bắt đầu với một dự án Spring Boot đơn giản và dần dần phát triển các tính năng phức tạp hơn, như:</p>
+<ul>
+<li>Quản lý người dùng (đăng ký, đăng nhập)</li>
+<li>Quản lý sản phẩm hoặc dịch vụ</li>
+<li>Tích hợp với cơ sở dữ liệu và xây dựng API RESTful</li>
+</ul>
+<h3 id="43-quản-lý-cơ-sở-dữ-liệu-với-hibernate">4.3. Quản lý cơ sở dữ liệu với Hibernate
+</h3><p>Học cách sử dụng Hibernate để làm việc với cơ sở dữ liệu, ví dụ như:</p>
+<ul>
+<li>Tạo các bảng dữ liệu trong cơ sở dữ liệu SQL</li>
+<li>Thực hiện các thao tác CRUD (Create, Read, Update, Delete)</li>
+<li>Quản lý kết nối cơ sở dữ liệu và sử dụng Spring Data JPA.</li>
+</ul>
+<h2 id="5-tiến-xa-hơn-với-java">5. Tiến xa hơn với Java
+</h2><p>Sau khi bạn đã xây dựng một số ứng dụng thực tế, hãy tìm hiểu thêm về các chủ đề nâng cao trong Java:</p>
+<h3 id="51-xử-lý-đa-luồng-multithreading">5.1. Xử lý đa luồng (Multithreading)
+</h3><p>Học cách sử dụng đa luồng để tối ưu hóa hiệu suất của ứng dụng và thực hiện các tác vụ song song.</p>
+<h3 id="52-thiết-kế-phần-mềm">5.2. Thiết kế phần mềm
+</h3><p>Tìm hiểu về các mẫu thiết kế phần mềm (design patterns) như Singleton, Factory, Observer, và nhiều mẫu khác để xây dựng phần mềm linh hoạt và dễ bảo trì.</p>
+<h3 id="53-kiểm-thử-testing">5.3. Kiểm thử (Testing)
+</h3><p>Học cách kiểm thử ứng dụng Java của bạn với các công cụ như JUnit và Mockito.</p>
+<h3 id="54-tối-ưu-hóa-hiệu-suất">5.4. Tối ưu hóa hiệu suất
+</h3><p>Tìm hiểu cách tối ưu hóa hiệu suất của ứng dụng Java, bao gồm việc quản lý bộ nhớ và tối ưu hóa các thuật toán.</p>
+<h2 id="kết-luận">Kết luận
+</h2><p>Java là một ngôn ngữ lập trình mạnh mẽ và có thể được sử dụng trong nhiều lĩnh vực khác nhau. Với lộ trình học này, bạn sẽ có thể phát triển các ứng dụng Java từ cơ bản đến nâng cao, giúp bạn trở thành một lập trình viên Java chuyên nghiệp.</p>
+<p>Hãy tiếp tục học hỏi và thực hành để trở thành một chuyên gia trong ngôn ngữ Java!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Lê Thành Công
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.7b9eadc5b8d9e31a42d738a8c83ca7c413bea7c10e273333e436a75ee4ce5d25.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

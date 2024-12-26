@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Lê Thành Công</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Lê Thành Công</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 26 Dec 2024 21:50:52 +0700</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Bài tập java nâng cao</title>
+        <link>http://localhost:1313/posts/my-first-post9/</link>
+        <pubDate>Thu, 26 Dec 2024 21:50:52 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post9/</guid>
+        <description>&lt;h1 id=&#34;10-bài-tập-java-nâng-cao&#34;&gt;10 Bài Tập Java Nâng Cao
+&lt;/h1&gt;&lt;h2 id=&#34;1-chương-trình-quản-lý-sinh-viên&#34;&gt;1. Chương Trình Quản Lý Sinh Viên
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Xây dựng một chương trình quản lý sinh viên đơn giản.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Student&lt;/code&gt; với các thuộc tính &lt;code&gt;id&lt;/code&gt;, &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;age&lt;/code&gt;, &lt;code&gt;grade&lt;/code&gt;, và các phương thức như &lt;code&gt;getDetails()&lt;/code&gt;, &lt;code&gt;setGrade()&lt;/code&gt;, &lt;code&gt;updateDetails()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Lớp &lt;code&gt;StudentManager&lt;/code&gt; quản lý một danh sách các sinh viên và có các phương thức để thêm, xóa và sửa thông tin sinh viên.&lt;/li&gt;
+&lt;li&gt;Hiển thị danh sách sinh viên trong hệ thống.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-thuật-toán-tìm-kiếm-nhị-phân&#34;&gt;2. Thuật Toán Tìm Kiếm Nhị Phân
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Cài đặt thuật toán tìm kiếm nhị phân.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết phương thức &lt;code&gt;binarySearch(int[] arr, int target)&lt;/code&gt; để tìm kiếm một phần tử trong mảng đã sắp xếp.&lt;/li&gt;
+&lt;li&gt;Trả về chỉ số của phần tử nếu tìm thấy, nếu không tìm thấy, trả về &lt;code&gt;-1&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-chương-trình-quản-lý-ngân-hàng&#34;&gt;3. Chương Trình Quản Lý Ngân Hàng
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Xây dựng một hệ thống ngân hàng đơn giản.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Account&lt;/code&gt; với các phương thức &lt;code&gt;deposit()&lt;/code&gt;, &lt;code&gt;withdraw()&lt;/code&gt;, &lt;code&gt;getBalance()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Cung cấp phương thức để nạp và rút tiền từ tài khoản.&lt;/li&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Bank&lt;/code&gt; để quản lý danh sách tài khoản ngân hàng và cho phép tạo, xóa tài khoản.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-chương-trình-quản-lý-thư-viện&#34;&gt;4. Chương Trình Quản Lý Thư Viện
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Xây dựng một chương trình quản lý thư viện.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Book&lt;/code&gt; với các thuộc tính như &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;author&lt;/code&gt;, &lt;code&gt;isbn&lt;/code&gt;, và &lt;code&gt;status&lt;/code&gt; (có sẵn/đã mượn).&lt;/li&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Library&lt;/code&gt; để quản lý danh sách sách.&lt;/li&gt;
+&lt;li&gt;Viết các phương thức thêm, xóa sách, mượn và trả sách, cùng chức năng hiển thị sách có sẵn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-ứng-dụng-quản-lý-danh-bạ&#34;&gt;5. Ứng Dụng Quản Lý Danh Bạ
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Xây dựng một ứng dụng quản lý danh bạ điện thoại.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Contact&lt;/code&gt; với các thuộc tính như &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;phoneNumber&lt;/code&gt;, &lt;code&gt;email&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Cung cấp các chức năng như tìm kiếm, thêm, sửa, xóa liên lạc trong danh bạ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6-chương-trình-tính-toán-fibonacci&#34;&gt;6. Chương Trình Tính Toán Fibonacci
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Tính toán số Fibonacci bằng đệ quy và vòng lặp.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết một phương thức đệ quy để tính giá trị Fibonacci thứ &lt;code&gt;n&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Viết một phương thức vòng lặp để tính giá trị Fibonacci thứ &lt;code&gt;n&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;7-quản-lý-môn-học-và-sinh-viên&#34;&gt;7. Quản Lý Môn Học và Sinh Viên
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Quản lý các môn học mà sinh viên đã đăng ký.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Course&lt;/code&gt; với các thuộc tính &lt;code&gt;courseId&lt;/code&gt;, &lt;code&gt;courseName&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Student&lt;/code&gt; và liên kết sinh viên với các môn học mà họ đăng ký.&lt;/li&gt;
+&lt;li&gt;Cung cấp các phương thức như đăng ký môn học, hiển thị danh sách môn học của sinh viên.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;8-thuật-toán-sắp-xếp-nổi-bọt&#34;&gt;8. Thuật Toán Sắp Xếp Nổi Bọt
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Cài đặt thuật toán sắp xếp nổi bọt (Bubble Sort).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết một phương thức sắp xếp mảng số nguyên theo thứ tự tăng dần sử dụng thuật toán sắp xếp nổi bọt.&lt;/li&gt;
+&lt;li&gt;Hiển thị mảng đã sắp xếp.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;9-chương-trình-kiểm-tra-số-nguyên-tố&#34;&gt;9. Chương Trình Kiểm Tra Số Nguyên Tố
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Kiểm tra một số có phải là số nguyên tố hay không.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết phương thức &lt;code&gt;isPrime(int number)&lt;/code&gt; để kiểm tra xem một số có phải là số nguyên tố không.&lt;/li&gt;
+&lt;li&gt;Nếu số chia hết cho bất kỳ số nào từ 2 đến căn bậc hai của nó, trả về &lt;code&gt;false&lt;/code&gt;. Nếu không, trả về &lt;code&gt;true&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;10-hệ-thống-quản-lý-hóa-đơn&#34;&gt;10. Hệ Thống Quản Lý Hóa Đơn
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mô Tả&lt;/strong&gt;: Xây dựng hệ thống quản lý hóa đơn cho cửa hàng.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yêu Cầu&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Invoice&lt;/code&gt; với các thuộc tính như &lt;code&gt;invoiceId&lt;/code&gt;, &lt;code&gt;customerName&lt;/code&gt;, &lt;code&gt;items&lt;/code&gt; (danh sách các mặt hàng).&lt;/li&gt;
+&lt;li&gt;Tạo lớp &lt;code&gt;Item&lt;/code&gt; với các thuộc tính &lt;code&gt;itemName&lt;/code&gt;, &lt;code&gt;price&lt;/code&gt;, &lt;code&gt;quantity&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tạo phương thức tính tổng hóa đơn, thêm mặt hàng vào hóa đơn và hiển thị hóa đơn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Các bài tập trên không chỉ giúp bạn cải thiện kỹ năng lập trình Java mà còn cung cấp cái nhìn sâu sắc về cách tổ chức và quản lý các chương trình phức tạp hơn. Chúc bạn thành công với các bài tập này!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Lập trình Java nâng cao</title>
+        <link>http://localhost:1313/posts/my-first-post8/</link>
+        <pubDate>Thu, 26 Dec 2024 21:42:54 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post8/</guid>
+        <description>&lt;h1 id=&#34;lập-trình-java-nâng-cao&#34;&gt;Lập trình Java nâng cao
+&lt;/h1&gt;&lt;p&gt;Lập trình Java không chỉ đơn giản là việc nắm vững các cú pháp cơ bản, mà còn bao gồm việc hiểu và sử dụng các khái niệm nâng cao để xây dựng các ứng dụng phức tạp và hiệu quả. Bài viết này sẽ giới thiệu một số chủ đề nâng cao trong Java giúp bạn nâng cao kỹ năng lập trình của mình.&lt;/p&gt;
+&lt;h2 id=&#34;1-kế-thừa-inheritance-và-đa-hình-polymorphism&#34;&gt;1. Kế thừa (Inheritance) và Đa hình (Polymorphism)
+&lt;/h2&gt;&lt;h3 id=&#34;kế-thừa&#34;&gt;Kế thừa
+&lt;/h3&gt;&lt;p&gt;Kế thừa là một trong những tính năng quan trọng nhất trong lập trình hướng đối tượng. Nó cho phép bạn tái sử dụng mã của lớp cha mà không cần phải viết lại. Lớp con có thể kế thừa các thuộc tính và phương thức của lớp cha.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ví dụ về kế thừa:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Animal&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sound&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Chúng tôi phát ra âm thanh.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Dog&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; Animal {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sound&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Gâu gâu!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Animal myDog &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Dog();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        myDog.&lt;span style=&#34;color:#a6e22e&#34;&gt;sound&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// Kết quả: Gâu gâu!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;đa-hình&#34;&gt;Đa hình
+&lt;/h3&gt;&lt;p&gt;Đa hình cho phép bạn sử dụng một phương thức hoặc một đối tượng của lớp cha như thể nó là đối tượng của lớp con. Điều này giúp tăng tính linh hoạt và mở rộng mã nguồn.&lt;/p&gt;
+&lt;p&gt;Ví dụ về đa hình:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Shape&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;draw&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Vẽ hình cơ bản.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Circle&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; Shape {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;draw&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Vẽ hình tròn.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Rectangle&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; Shape {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;draw&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Vẽ hình chữ nhật.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Shape myShape &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Circle();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        myShape.&lt;span style=&#34;color:#a6e22e&#34;&gt;draw&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// Kết quả: Vẽ hình tròn.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        myShape &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Rectangle();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        myShape.&lt;span style=&#34;color:#a6e22e&#34;&gt;draw&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// Kết quả: Vẽ hình chữ nhật.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-xử-lý-ngoại-lệ-exception-handling&#34;&gt;2. Xử lý ngoại lệ (Exception Handling)
+&lt;/h2&gt;&lt;p&gt;Java cung cấp một cơ chế mạnh mẽ để xử lý các lỗi trong quá trình thực thi thông qua khối try-catch. Điều này giúp ứng dụng của bạn trở nên ổn định hơn và dễ dàng kiểm soát lỗi.&lt;/p&gt;
+&lt;p&gt;Ví dụ về xử lý ngoại lệ:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10 &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; 0; &lt;span style=&#34;color:#75715e&#34;&gt;// Đây sẽ gây ra lỗi chia cho 0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        } &lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt; (ArithmeticException e) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Lỗi: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; e.&lt;span style=&#34;color:#a6e22e&#34;&gt;getMessage&lt;/span&gt;());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        } &lt;span style=&#34;color:#66d9ef&#34;&gt;finally&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Khối finally luôn được thực thi.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-các-lớp-trừu-tượng-và-giao-diện-abstract-classes--interfaces&#34;&gt;3. Các lớp trừu tượng và giao diện (Abstract Classes &amp;amp; Interfaces)
+&lt;/h2&gt;&lt;p&gt;Trong Java, lớp trừu tượng và giao diện giúp bạn tạo ra các mẫu thiết kế linh hoạt và có thể mở rộng. Chúng giúp định nghĩa các phương thức mà các lớp con phải triển khai mà không cần lo lắng về cách triển khai cụ thể.&lt;/p&gt;
+&lt;h3 id=&#34;lớp-trừu-tượng&#34;&gt;Lớp trừu tượng
+&lt;/h3&gt;&lt;p&gt;Một lớp trừu tượng là lớp không thể được khởi tạo trực tiếp và thường chứa các phương thức trừu tượng mà các lớp con cần triển khai.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;abstract&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Animal&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;abstract&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sound&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;eat&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Động vật ăn thức ăn.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Dog&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; Animal {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sound&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Gâu gâu!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;giao-diện&#34;&gt;Giao diện
+&lt;/h3&gt;&lt;p&gt;Giao diện trong Java là một loại lớp trừu tượng chỉ có phương thức mà không có thân phương thức. Lớp con cần phải triển khai tất cả các phương thức của giao diện.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Animal&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sound&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Dog&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;implements&lt;/span&gt; Animal {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Override&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sound&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Gâu gâu!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-bộ-sưu-tập-collections&#34;&gt;4. Bộ sưu tập (Collections)
+&lt;/h2&gt;&lt;p&gt;Java cung cấp một bộ công cụ phong phú để làm việc với dữ liệu không xác định số lượng, chẳng hạn như các lớp trong package java.util như ArrayList, HashMap, HashSet, v.v.&lt;/p&gt;
+&lt;p&gt;Ví dụ sử dụng ArrayList:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.ArrayList;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;String&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; ArrayList&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;gt;&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        list.&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Java&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        list.&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Python&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        list.&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C++&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (String language : list) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(language);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ví dụ sử dụng HashMap:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.HashMap;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        HashMap&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;String, String&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; map &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; HashMap&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&amp;gt;&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        map.&lt;span style=&#34;color:#a6e22e&#34;&gt;put&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Java&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Ngôn ngữ lập trình hướng đối tượng.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        map.&lt;span style=&#34;color:#a6e22e&#34;&gt;put&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Python&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Ngôn ngữ lập trình đơn giản và dễ học.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(map.&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Java&amp;#34;&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-đa-luồng-multithreading&#34;&gt;5. Đa luồng (Multithreading)
+&lt;/h2&gt;&lt;p&gt;Java hỗ trợ đa luồng, cho phép bạn thực hiện nhiều công việc đồng thời. Điều này rất hữu ích trong các ứng dụng yêu cầu xử lý đồng thời, chẳng hạn như các máy chủ web, ứng dụng giao dịch, v.v.&lt;/p&gt;
+&lt;p&gt;Ví dụ về đa luồng:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;MyThread&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;extends&lt;/span&gt; Thread {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;run&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Đang chạy trong luồng &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; Thread.&lt;span style=&#34;color:#a6e22e&#34;&gt;currentThread&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;getId&lt;/span&gt;());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        MyThread thread1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; MyThread();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        thread1.&lt;span style=&#34;color:#a6e22e&#34;&gt;start&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        MyThread thread2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; MyThread();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        thread2.&lt;span style=&#34;color:#a6e22e&#34;&gt;start&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;6-streams-và-lambda-expressions&#34;&gt;6. Streams và Lambda Expressions
+&lt;/h2&gt;&lt;p&gt;Từ Java 8, Java đã hỗ trợ Streams và Lambda Expressions, giúp mã nguồn ngắn gọn hơn và dễ dàng xử lý các tập dữ liệu.&lt;/p&gt;
+&lt;p&gt;Ví dụ về Stream và Lambda:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.Arrays;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.List;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        List&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;String&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; languages &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Arrays.&lt;span style=&#34;color:#a6e22e&#34;&gt;asList&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Java&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Python&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C++&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;JavaScript&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        languages.&lt;span style=&#34;color:#a6e22e&#34;&gt;stream&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 .&lt;span style=&#34;color:#a6e22e&#34;&gt;filter&lt;/span&gt;(language &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; language.&lt;span style=&#34;color:#a6e22e&#34;&gt;startsWith&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;J&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 .&lt;span style=&#34;color:#a6e22e&#34;&gt;forEach&lt;/span&gt;(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;::println);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Giải thích&lt;/strong&gt;:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;stream()&lt;/code&gt;&lt;/strong&gt;: Chuyển đổi danh sách thành Stream.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;filter()&lt;/code&gt;&lt;/strong&gt;: Lọc các phần tử bắt đầu bằng chữ &amp;ldquo;J&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;forEach()&lt;/code&gt;&lt;/strong&gt;: In các phần tử còn lại.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kết-luận&#34;&gt;Kết luận
+&lt;/h2&gt;&lt;p&gt;Lập trình Java nâng cao giúp bạn phát triển các ứng dụng mạnh mẽ, hiệu quả và dễ mở rộng. Bằng cách nắm vững các khái niệm như kế thừa, đa hình, xử lý ngoại lệ, và các công nghệ mới như Streams và Lambda, bạn sẽ có thể xây dựng các ứng dụng phức tạp và tối ưu hơn.&lt;/p&gt;
+&lt;p&gt;Hãy tiếp tục học hỏi và thực hành để trở thành một lập trình viên Java giỏi và có thể phát triển các ứng dụng chuyên nghiệp!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Lập trình Java cơ bản</title>
+        <link>http://localhost:1313/posts/my-first-post7/</link>
+        <pubDate>Thu, 26 Dec 2024 21:33:00 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post7/</guid>
+        <description>&lt;h1 id=&#34;lập-trình-java-cơ-bản&#34;&gt;Lập trình Java cơ bản
+&lt;/h1&gt;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay, được sử dụng rộng rãi trong phát triển phần mềm, ứng dụng di động (Android), và các hệ thống lớn. Nếu bạn là người mới bắt đầu học lập trình, Java là một lựa chọn tuyệt vời. Bài viết này sẽ cung cấp cho bạn những kiến thức cơ bản về lập trình Java.&lt;/p&gt;
+&lt;h2 id=&#34;1-cài-đặt-java&#34;&gt;1. Cài đặt Java
+&lt;/h2&gt;&lt;p&gt;Trước khi bắt đầu lập trình Java, bạn cần cài đặt Java Development Kit (JDK). JDK là bộ công cụ cần thiết để phát triển và biên dịch các chương trình Java.&lt;/p&gt;
+&lt;h3 id=&#34;các-bước-cài-đặt&#34;&gt;Các bước cài đặt:
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Tải JDK từ trang chính thức của Oracle: &lt;a class=&#34;link&#34; href=&#34;https://www.oracle.com/java/technologies/javase-jdk15-downloads.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tải JDK&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Cài đặt JDK vào máy tính của bạn và thêm &lt;code&gt;JAVA_HOME&lt;/code&gt; vào biến môi trường (Environment Variables).&lt;/li&gt;
+&lt;li&gt;Kiểm tra cài đặt bằng cách mở Command Prompt (Windows) hoặc Terminal (Mac/Linux) và chạy lệnh sau:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;java -version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Nếu Java đã được cài đặt thành công, bạn sẽ thấy thông tin phiên bản Java.&lt;/p&gt;
+&lt;h2 id=&#34;2-cấu-trúc-một-chương-trình-java&#34;&gt;2. Cấu trúc một chương trình Java
+&lt;/h2&gt;&lt;p&gt;Một chương trình Java cơ bản bao gồm các phần chính: khai báo lớp (class), phương thức chính (main method), và các câu lệnh thực thi. Dưới đây là ví dụ về một chương trình Java đơn giản:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Chào thế giới!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-các-kiểu-dữ-liệu-trong-java&#34;&gt;3. Các kiểu dữ liệu trong Java
+&lt;/h2&gt;&lt;p&gt;Java là ngôn ngữ lập trình kiểu dữ liệu tĩnh, có nghĩa là bạn phải chỉ định kiểu dữ liệu khi khai báo biến. Các kiểu dữ liệu cơ bản trong Java bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;int&lt;/code&gt;&lt;/strong&gt;: Kiểu số nguyên (ví dụ: int age = 30;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;double&lt;/code&gt;&lt;/strong&gt;: Kiểu số thực (ví dụ: double price = 10.99;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;boolean&lt;/code&gt;&lt;/strong&gt;: Kiểu giá trị logic (ví dụ: boolean isActive = true;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;char&lt;/code&gt;&lt;/strong&gt;: Kiểu ký tự (ví dụ: char grade = &amp;lsquo;A&amp;rsquo;;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;String&lt;/code&gt;&lt;/strong&gt;: Kiểu chuỗi (ví dụ: String name = &amp;ldquo;John&amp;rdquo;;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-câu-lệnh-điều-kiện-if-else&#34;&gt;4. Câu lệnh điều kiện (if-else)
+&lt;/h2&gt;&lt;p&gt;Câu lệnh điều kiện cho phép bạn thực hiện các quyết định dựa trên điều kiện. Dưới đây là ví dụ về cách sử dụng **&lt;code&gt;if-else &lt;/code&gt;**trong Java:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; age &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (age &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;=&lt;/span&gt; 18) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bạn đủ tuổi trưởng thành.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bạn chưa đủ tuổi trưởng thành.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-vòng-lặp-loops&#34;&gt;5. Vòng lặp (Loops)
+&lt;/h2&gt;&lt;p&gt;Java hỗ trợ ba loại vòng lặp cơ bản: for, while, và do-while.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vòng lặp for:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 5; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(i);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Vòng lặp while:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 5) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(i);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Vòng lặp do-while:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(i);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 5);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;6-hàm-methods&#34;&gt;6. Hàm (Methods)
+&lt;/h2&gt;&lt;p&gt;Hàm (hay phương thức) trong Java là một khối mã thực hiện một tác vụ cụ thể. Bạn có thể khai báo hàm bằng cách sử dụng cú pháp sau:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Calculator&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; b) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; add(5, 3);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Kết quả là: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; result);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;7-lớp-và-đối-tượng-classes-and-objects&#34;&gt;7. Lớp và Đối tượng (Classes and Objects)
+&lt;/h2&gt;&lt;p&gt;Trong Java, mọi thứ đều là đối tượng. Để sử dụng đối tượng, bạn cần tạo một lớp (class), trong đó định nghĩa các thuộc tính và phương thức của đối tượng.&lt;/p&gt;
+&lt;p&gt;Ví dụ:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Dog&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    String name;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; age;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;bark&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; đang sủa!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Dog dog1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Dog();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        dog1.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Buddy&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        dog1.&lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 3;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        dog1.&lt;span style=&#34;color:#a6e22e&#34;&gt;bark&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// Kết quả sẽ là &amp;#39;Buddy đang sủa!&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;kết-luận&#34;&gt;Kết luận
+&lt;/h2&gt;&lt;p&gt;Java là một ngôn ngữ lập trình mạnh mẽ và dễ học, phù hợp cho cả người mới bắt đầu và các lập trình viên có kinh nghiệm. Bằng cách nắm vững các cú pháp cơ bản và thực hành liên tục, bạn sẽ trở thành một lập trình viên Java giỏi.&lt;/p&gt;
+&lt;p&gt;Hãy tiếp tục tìm hiểu các chủ đề nâng cao hơn như kế thừa, đa hình, và xử lý ngoại lệ để phát triển kỹ năng lập trình của mình!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Lập trình JavaScript cơ bản</title>
+        <link>http://localhost:1313/posts/my-first-post6/</link>
+        <pubDate>Thu, 26 Dec 2024 21:18:44 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post6/</guid>
+        <description>&lt;h1 id=&#34;lập-trình-javascript-cơ-bản&#34;&gt;Lập trình JavaScript cơ bản
+&lt;/h1&gt;&lt;p&gt;JavaScript là ngôn ngữ lập trình phổ biến được sử dụng để tạo ra các trang web động và tương tác. Để làm quen với JavaScript, bạn cần nắm vững cú pháp cơ bản. Dưới đây là những khái niệm cơ bản về cú pháp của JavaScript.&lt;/p&gt;
+&lt;h2 id=&#34;1-khai-báo-biến&#34;&gt;1. Khai báo biến
+&lt;/h2&gt;&lt;p&gt;JavaScript hỗ trợ ba cách để khai báo biến:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;var&lt;/code&gt;&lt;/strong&gt;: Đã lỗi thời và ít được sử dụng, nhưng vẫn tồn tại để hỗ trợ tính tương thích ngược.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;let&lt;/code&gt;&lt;/strong&gt;: Được sử dụng để khai báo biến có phạm vi cục bộ trong phạm vi lặp lồng (&lt;code&gt;loop&lt;/code&gt;) hoặc khối lệnh (&lt;code&gt;block&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;const&lt;/code&gt;&lt;/strong&gt;: Được sử dụng để khai báo biến có giá trị không thay đổi sau khi đã được gán.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ví dụ:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;pi&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.14&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;2-kiểu-dữ-liệu&#34;&gt;2. Kiểu dữ liệu
+&lt;/h2&gt;&lt;p&gt;JavaScript có sáu kiểu dữ liệu cơ bản:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;String&lt;/code&gt;&lt;/strong&gt; (Chuỗi): &amp;ldquo;Hello World&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Number &lt;/code&gt;&lt;/strong&gt;(Số): 42, 3.14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Boolean&lt;/code&gt;&lt;/strong&gt; (Boolean): true hoặc false&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Null&lt;/code&gt;&lt;/strong&gt; (Null): null&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Undefined&lt;/code&gt;&lt;/strong&gt; (Không xác định): undefined&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Object&lt;/code&gt;&lt;/strong&gt; (Đối tượng): Ví dụ, { name: &amp;ldquo;John&amp;rdquo;, age: 25 }&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-câu-lệnh-điều-kiện&#34;&gt;3. Câu lệnh điều kiện
+&lt;/h2&gt;&lt;p&gt;JavaScript hỗ trợ ba loại câu lệnh điều kiện chính:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;if&lt;/code&gt;&lt;/strong&gt;: Điều kiện đơn giản, thực hiện hành động nếu điều kiện đúng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;else&lt;/code&gt;&lt;/strong&gt;: Điều kiện ngược, thực hiện hành động nếu điều kiện if không đúng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;else if&lt;/code&gt;&lt;/strong&gt;: Điều kiện lồng nhau.
+Ví dụ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;18&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bạn đã trưởng thành&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bạn chưa trưởng thành&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-vòng-lặp&#34;&gt;4. Vòng lặp
+&lt;/h2&gt;&lt;p&gt;JavaScript hỗ trợ ba loại vòng lặp cơ bản:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;for&lt;/code&gt;&lt;/strong&gt;: Vòng lặp với điều kiện lặp rõ ràng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;while&lt;/code&gt;&lt;/strong&gt;: Vòng lặp kiểm tra điều kiện trước mỗi lần lặp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;do...while&lt;/code&gt;&lt;/strong&gt;: Vòng lặp kiểm tra điều kiện sau mỗi lần lặp.
+Ví dụ:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;5-hàm&#34;&gt;5. Hàm
+&lt;/h2&gt;&lt;p&gt;JavaScript hỗ trợ việc khai báo hàm theo hai cách:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Hàm biểu thức&lt;/code&gt;&lt;/strong&gt;:
+Ví dụ,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() { 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;); 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;Hàm định danh&lt;/code&gt;&lt;/strong&gt;:
+Ví dụ,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt;() { 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;); 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Bạn có thể truyền tham số vào hàm và trả về giá trị:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ví dụ,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sum&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;sum&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)); &lt;span style=&#34;color:#75715e&#34;&gt;// Output: 5
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;6-đối-tượng&#34;&gt;6. Đối tượng
+&lt;/h2&gt;&lt;p&gt;JavaScript hỗ trợ lập trình hướng đối tượng (OOP), và bạn có thể tạo đối tượng bằng cách sử dụng {}:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;person&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;};
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;person&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;greet&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;7-các-phương-thức-phổ-biến&#34;&gt;7. Các phương thức phổ biến
+&lt;/h2&gt;&lt;p&gt;Một số phương thức phổ biến trong JavaScript:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;alert&lt;/code&gt;&lt;/strong&gt;: Hiển thị hộp thoại thông báo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;console.log&lt;/code&gt;&lt;/strong&gt;: Xuất thông báo lên cửa sổ console.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;prompt&lt;/code&gt;&lt;/strong&gt;: Yêu cầu người dùng nhập thông tin.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;confirm&lt;/code&gt;&lt;/strong&gt;: Hiển thị hộp thoại xác nhận với hai nút OK và Cancel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;8-xử-lý-sự-kiện&#34;&gt;8. Xử lý sự kiện
+&lt;/h2&gt;&lt;p&gt;JavaScript hỗ trợ xử lý sự kiện cho các yếu tố HTML:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;document.&lt;span style=&#34;color:#a6e22e&#34;&gt;getElementById&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;btn&amp;#34;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Button clicked&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Với những khái niệm cơ bản này, bạn có thể bắt đầu xây dựng các ứng dụng web đơn giản với JavaScript. Hãy thực hành và khám phá thêm các tính năng nâng cao của JavaScript để trở thành một lập trình viên web giỏi!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Lộ trình học JavaScript</title>
+        <link>http://localhost:1313/posts/my-first-post5/</link>
+        <pubDate>Thu, 26 Dec 2024 21:16:20 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post5/</guid>
+        <description>&lt;h1 id=&#34;lộ-trình-học-javascript&#34;&gt;Lộ trình học JavaScript
+&lt;/h1&gt;&lt;p&gt;JavaScript là một trong những ngôn ngữ lập trình phổ biến nhất và không thể thiếu trong phát triển web. JavaScript giúp bạn tạo ra các trang web động, với khả năng tương tác mạnh mẽ. Lộ trình học JavaScript dưới đây sẽ giúp bạn trở thành một lập trình viên JavaScript chuyên nghiệp.&lt;/p&gt;
+&lt;h2 id=&#34;1-bắt-đầu-với-javascript-cơ-bản&#34;&gt;1. Bắt đầu với JavaScript cơ bản
+&lt;/h2&gt;&lt;p&gt;Trước khi đi sâu vào các khái niệm phức tạp hơn, bạn cần nắm vững các kiến thức cơ bản về JavaScript.&lt;/p&gt;
+&lt;h3 id=&#34;11-cài-đặt-môi-trường&#34;&gt;1.1. Cài đặt môi trường
+&lt;/h3&gt;&lt;p&gt;JavaScript chạy trực tiếp trên trình duyệt, vì vậy bạn không cần phải cài đặt bất kỳ phần mềm nào để bắt đầu. Bạn chỉ cần trình duyệt và một trình soạn thảo mã (như Visual Studio Code) để viết mã JavaScript.&lt;/p&gt;
+&lt;h3 id=&#34;12-cú-pháp-cơ-bản-của-javascript&#34;&gt;1.2. Cú pháp cơ bản của JavaScript
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Biến và kiểu dữ liệu&lt;/strong&gt;: JavaScript hỗ trợ các kiểu dữ liệu như string, number, boolean, null, undefined, và object. Hãy học cách khai báo biến bằng &lt;code&gt;var&lt;/code&gt;, &lt;code&gt;let&lt;/code&gt;, và &lt;code&gt;const&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Câu lệnh điều kiện&lt;/strong&gt;: Sử dụng &lt;code&gt;if&lt;/code&gt;, &lt;code&gt;else&lt;/code&gt;, và &lt;code&gt;switch&lt;/code&gt; để điều khiển luồng chương trình dựa trên điều kiện.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vòng lặp&lt;/strong&gt;: Các vòng lặp như &lt;code&gt;for&lt;/code&gt;, &lt;code&gt;while&lt;/code&gt;, và &lt;code&gt;do-while&lt;/code&gt; cho phép bạn lặp qua các tập hợp dữ liệu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-các-hàm-và-đối-tượng&#34;&gt;1.3. Các hàm và đối tượng
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hàm&lt;/strong&gt;: Học cách khai báo và gọi hàm trong JavaScript.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đối tượng&lt;/strong&gt;: Làm quen với đối tượng và các phương thức của nó trong JavaScript.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-lập-trình-hướng-đối-tượng-oop-trong-javascript&#34;&gt;2. Lập trình hướng đối tượng (OOP) trong JavaScript
+&lt;/h2&gt;&lt;p&gt;JavaScript hỗ trợ lập trình hướng đối tượng (OOP). Dưới đây là các khái niệm cơ bản của OOP trong JavaScript:&lt;/p&gt;
+&lt;h3 id=&#34;21-các-nguyên-lý-oop&#34;&gt;2.1. Các nguyên lý OOP
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Encapsulation (Đóng gói)&lt;/strong&gt;: Giới thiệu về cách ẩn thông tin và chỉ cung cấp các phương thức công khai.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inheritance (Kế thừa)&lt;/strong&gt;: Lớp con có thể kế thừa các thuộc tính và phương thức của lớp cha.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polymorphism (Đa hình)&lt;/strong&gt;: Các đối tượng có thể có các hành vi khác nhau dù sử dụng cùng một phương thức.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstraction (Trừu tượng)&lt;/strong&gt;: Chỉ làm việc với các đối tượng thông qua giao diện của chúng mà không cần phải biết các chi tiết bên trong.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;22-lớp-và-đối-tượng-trong-javascript&#34;&gt;2.2. Lớp và đối tượng trong JavaScript
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Class&lt;/strong&gt;: JavaScript ES6 hỗ trợ cú pháp khai báo lớp bằng từ khóa &lt;code&gt;class&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Constructor&lt;/strong&gt;: Sử dụng constructor để khởi tạo các đối tượng của lớp.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-học-về-các-tính-năng-nâng-cao-của-javascript&#34;&gt;3. Học về các tính năng nâng cao của JavaScript
+&lt;/h2&gt;&lt;p&gt;Khi đã nắm vững các khái niệm cơ bản, bạn có thể bắt đầu học về các tính năng nâng cao trong JavaScript.&lt;/p&gt;
+&lt;h3 id=&#34;31-asynchronous-javascript-lập-trình-bất-đồng-bộ&#34;&gt;3.1. Asynchronous JavaScript (Lập trình bất đồng bộ)
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Callback functions&lt;/strong&gt;: Làm quen với các hàm callback để xử lý các tác vụ bất đồng bộ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Promises&lt;/strong&gt;: Hiểu về promises và cách chúng giúp xử lý mã bất đồng bộ dễ dàng hơn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Async/Await&lt;/strong&gt;: Học cách sử dụng &lt;code&gt;async&lt;/code&gt; và &lt;code&gt;await&lt;/code&gt; để làm mã bất đồng bộ trở nên đồng bộ hơn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;32-dom-manipulation&#34;&gt;3.2. DOM Manipulation
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DOM&lt;/strong&gt;: Học cách sử dụng JavaScript để tương tác với DOM (Document Object Model) nhằm thay đổi nội dung và cấu trúc của trang web.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Event Handling&lt;/strong&gt;: Làm quen với các sự kiện (click, hover, etc.) và cách lắng nghe và xử lý chúng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;33-es6-và-các-tính-năng-mới&#34;&gt;3.3. ES6 và các tính năng mới
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arrow functions&lt;/strong&gt;: Cách sử dụng các hàm mũi tên để viết mã ngắn gọn hơn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template literals&lt;/strong&gt;: Học cách sử dụng dấu `` để tạo các chuỗi động.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Destructuring&lt;/strong&gt;: Cách trích xuất dữ liệu từ các mảng và đối tượng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modules&lt;/strong&gt;: Tìm hiểu về module trong JavaScript và cách sử dụng &lt;code&gt;import&lt;/code&gt; và &lt;code&gt;export&lt;/code&gt; để chia sẻ mã giữa các file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-xây-dựng-ứng-dụng-web-với-javascript&#34;&gt;4. Xây dựng ứng dụng web với JavaScript
+&lt;/h2&gt;&lt;p&gt;Khi bạn đã học đủ kiến thức cơ bản và nâng cao, bạn có thể bắt đầu xây dựng các ứng dụng web thực tế.&lt;/p&gt;
+&lt;h3 id=&#34;41-ứng-dụng-web-tĩnh&#34;&gt;4.1. Ứng dụng web tĩnh
+&lt;/h3&gt;&lt;p&gt;Bắt đầu với một vài ứng dụng web tĩnh đơn giản như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trang web cá nhân&lt;/li&gt;
+&lt;li&gt;Ứng dụng đồng hồ đếm ngược&lt;/li&gt;
+&lt;li&gt;Ứng dụng quản lý danh bạ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;42-ứng-dụng-web-động&#34;&gt;4.2. Ứng dụng web động
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ajax&lt;/strong&gt;: Sử dụng Ajax để tải dữ liệu từ máy chủ mà không cần làm mới trang.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fetch API&lt;/strong&gt;: Học cách sử dụng Fetch API để lấy dữ liệu từ máy chủ và hiển thị lên trang.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;43-xây-dựng-spa-với-reactjs-hoặc-vuejs&#34;&gt;4.3. Xây dựng SPA với React.js hoặc Vue.js
+&lt;/h3&gt;&lt;p&gt;Học các framework và thư viện JavaScript như &lt;strong&gt;React.js&lt;/strong&gt; hoặc &lt;strong&gt;Vue.js&lt;/strong&gt; để phát triển các ứng dụng web động (Single Page Application - SPA).&lt;/p&gt;
+&lt;h2 id=&#34;5-học-về-nodejs&#34;&gt;5. Học về Node.js
+&lt;/h2&gt;&lt;p&gt;Node.js là một môi trường runtime JavaScript giúp bạn chạy JavaScript ở phía máy chủ. Với Node.js, bạn có thể phát triển ứng dụng phía máy chủ (backend) sử dụng JavaScript.&lt;/p&gt;
+&lt;h3 id=&#34;51-cài-đặt-và-cấu-hình-nodejs&#34;&gt;5.1. Cài đặt và cấu hình Node.js
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tải và cài đặt Node.js từ trang chủ &lt;a class=&#34;link&#34; href=&#34;https://nodejs.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Node.js&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Học cách sử dụng &lt;code&gt;npm&lt;/code&gt; (Node Package Manager) để cài đặt các thư viện và công cụ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;52-xây-dựng-ứng-dụng-backend-với-expressjs&#34;&gt;5.2. Xây dựng ứng dụng backend với Express.js
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tìm hiểu về Express.js, một framework phổ biến để xây dựng API và ứng dụng web backend với Node.js.&lt;/li&gt;
+&lt;li&gt;Cấu hình routing, middleware, và kết nối với cơ sở dữ liệu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6-tiến-xa-hơn-với-javascript&#34;&gt;6. Tiến xa hơn với JavaScript
+&lt;/h2&gt;&lt;p&gt;Khi bạn đã có kiến thức vững vàng về JavaScript, bạn có thể tiếp tục học các chủ đề nâng cao hơn:&lt;/p&gt;
+&lt;h3 id=&#34;61-progressive-web-apps-pwa&#34;&gt;6.1. Progressive Web Apps (PWA)
+&lt;/h3&gt;&lt;p&gt;Tìm hiểu cách tạo các ứng dụng web có thể hoạt động như ứng dụng di động, ngay cả khi không có kết nối Internet.&lt;/p&gt;
+&lt;h3 id=&#34;62-webassembly&#34;&gt;6.2. WebAssembly
+&lt;/h3&gt;&lt;p&gt;Học về WebAssembly để chạy các ngôn ngữ lập trình khác trên trình duyệt, giúp tăng hiệu suất ứng dụng web.&lt;/p&gt;
+&lt;h3 id=&#34;63-kiểm-thử-ứng-dụng-javascript&#34;&gt;6.3. Kiểm thử ứng dụng JavaScript
+&lt;/h3&gt;&lt;p&gt;Học cách kiểm thử mã JavaScript với các công cụ như Jest, Mocha, và Chai.&lt;/p&gt;
+&lt;h3 id=&#34;64-tối-ưu-hóa-hiệu-suất&#34;&gt;6.4. Tối ưu hóa hiệu suất
+&lt;/h3&gt;&lt;p&gt;Tìm hiểu cách tối ưu hóa mã JavaScript để ứng dụng của bạn nhanh và hiệu quả hơn.&lt;/p&gt;
+&lt;h2 id=&#34;kết-luận&#34;&gt;Kết luận
+&lt;/h2&gt;&lt;p&gt;JavaScript là một ngôn ngữ cực kỳ mạnh mẽ, và việc học JavaScript mở ra rất nhiều cơ hội trong việc phát triển web và ứng dụng. Với lộ trình học này, bạn sẽ có thể phát triển các ứng dụng web đầy đủ tính năng, từ giao diện người dùng (frontend) đến hệ thống máy chủ (backend). Hãy bắt đầu học và thực hành ngay hôm nay để trở thành một lập trình viên JavaScript giỏi!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Lộ trình học java</title>
+        <link>http://localhost:1313/posts/my-first-post4/</link>
+        <pubDate>Thu, 26 Dec 2024 21:13:43 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post4/</guid>
+        <description>&lt;h1 id=&#34;lộ-trình-học-java&#34;&gt;Lộ trình học Java
+&lt;/h1&gt;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến và mạnh mẽ nhất hiện nay. Được sử dụng rộng rãi trong phát triển ứng dụng web, ứng dụng di động, hệ thống doanh nghiệp, và nhiều lĩnh vực khác, Java có một cộng đồng lập trình viên lớn và năng động. Dưới đây là một lộ trình chi tiết để học Java từ cơ bản đến nâng cao.&lt;/p&gt;
+&lt;h2 id=&#34;1-làm-quen-với-cơ-bản-của-java&#34;&gt;1. Làm quen với cơ bản của Java
+&lt;/h2&gt;&lt;p&gt;Trước khi bắt đầu với Java, bạn cần hiểu các khái niệm cơ bản về lập trình:&lt;/p&gt;
+&lt;h3 id=&#34;11-cài-đặt-môi-trường-phát-triển&#34;&gt;1.1. Cài đặt môi trường phát triển
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tải và cài đặt Java Development Kit (JDK)&lt;/strong&gt;: Java cần một môi trường phát triển để biên dịch và chạy mã. Bạn cần cài đặt JDK từ &lt;a class=&#34;link&#34; href=&#34;https://www.oracle.com/java/technologies/javase-jdk11-downloads.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;trang chủ Oracle&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cài đặt IDE&lt;/strong&gt;: Các công cụ như IntelliJ IDEA, Eclipse, hoặc NetBeans giúp việc lập trình Java trở nên dễ dàng và hiệu quả hơn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-hiểu-cú-pháp-cơ-bản&#34;&gt;1.2. Hiểu cú pháp cơ bản
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Biến và kiểu dữ liệu&lt;/strong&gt;: Java có các kiểu dữ liệu cơ bản như int, double, boolean, char, String, v.v.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Câu lệnh điều kiện&lt;/strong&gt;: Sử dụng &lt;code&gt;if&lt;/code&gt;, &lt;code&gt;else&lt;/code&gt;, &lt;code&gt;switch&lt;/code&gt; để kiểm tra và thực hiện các điều kiện trong chương trình.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vòng lặp&lt;/strong&gt;: Sử dụng &lt;code&gt;for&lt;/code&gt;, &lt;code&gt;while&lt;/code&gt;, &lt;code&gt;do-while&lt;/code&gt; để lặp qua các phần tử hoặc điều kiện.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-các-khái-niệm-cơ-bản-khác&#34;&gt;1.3. Các khái niệm cơ bản khác
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mảng&lt;/strong&gt;: Làm quen với việc sử dụng mảng trong Java để lưu trữ tập hợp các giá trị.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phương thức&lt;/strong&gt;: Học cách khai báo và gọi các phương thức trong Java để tổ chức mã và tái sử dụng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lớp và đối tượng&lt;/strong&gt;: Làm quen với lập trình hướng đối tượng (OOP) và cách định nghĩa các lớp và đối tượng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-làm-quen-với-lập-trình-hướng-đối-tượng-oop&#34;&gt;2. Làm quen với lập trình hướng đối tượng (OOP)
+&lt;/h2&gt;&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng (OOP). Hiểu các nguyên lý cơ bản của OOP là một phần quan trọng trong việc học Java.&lt;/p&gt;
+&lt;h3 id=&#34;21-các-nguyên-lý-oop&#34;&gt;2.1. Các nguyên lý OOP
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Encapsulation (Đóng gói)&lt;/strong&gt;: Giới thiệu về việc ẩn thông tin chi tiết và chỉ cung cấp các phương thức công khai.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inheritance (Kế thừa)&lt;/strong&gt;: Cách tạo các lớp con kế thừa các thuộc tính và phương thức từ lớp cha.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Polymorphism (Đa hình)&lt;/strong&gt;: Sử dụng phương thức có cùng tên nhưng có thể có các hành vi khác nhau tùy thuộc vào đối tượng.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstraction (Trừu tượng)&lt;/strong&gt;: Giúp ẩn các chi tiết phức tạp và chỉ cung cấp giao diện đơn giản.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;22-tìm-hiểu-về-lớp-và-đối-tượng&#34;&gt;2.2. Tìm hiểu về lớp và đối tượng
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Khởi tạo đối tượng&lt;/strong&gt;: Cách tạo và sử dụng đối tượng từ lớp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Constructor&lt;/strong&gt;: Phương thức đặc biệt để khởi tạo đối tượng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-học-các-thư-viện-và-framework-java-phổ-biến&#34;&gt;3. Học các thư viện và framework Java phổ biến
+&lt;/h2&gt;&lt;p&gt;Sau khi bạn đã nắm vững cú pháp cơ bản của Java và các nguyên lý OOP, hãy bắt đầu tìm hiểu về các thư viện và framework giúp bạn xây dựng ứng dụng mạnh mẽ và dễ dàng hơn.&lt;/p&gt;
+&lt;h3 id=&#34;31-thư-viện-java-cơ-bản&#34;&gt;3.1. Thư viện Java cơ bản
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Java Collections Framework&lt;/strong&gt;: Tìm hiểu về các cấu trúc dữ liệu như List, Set, Map và cách sử dụng chúng để quản lý và xử lý dữ liệu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Java Streams&lt;/strong&gt;: Học cách sử dụng Stream API để xử lý dữ liệu theo cách hàm (functional).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Java Date/Time API&lt;/strong&gt;: Làm quen với cách làm việc với ngày và giờ trong Java.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;32-các-framework-phổ-biến&#34;&gt;3.2. Các framework phổ biến
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Spring Framework&lt;/strong&gt;: Một trong những framework phổ biến nhất để phát triển ứng dụng Java. Spring giúp bạn dễ dàng phát triển các ứng dụng web và dịch vụ RESTful.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hibernate&lt;/strong&gt;: Thư viện ORM (Object Relational Mapping) giúp tương tác với cơ sở dữ liệu SQL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JavaFX&lt;/strong&gt;: Framework để phát triển ứng dụng GUI (Giao diện người dùng đồ họa) cho desktop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-phát-triển-ứng-dụng-thực-tế&#34;&gt;4. Phát triển ứng dụng thực tế
+&lt;/h2&gt;&lt;p&gt;Khi bạn đã nắm vững các khái niệm cơ bản và framework, hãy bắt đầu xây dựng các ứng dụng Java thực tế.&lt;/p&gt;
+&lt;h3 id=&#34;41-xây-dựng-ứng-dụng-console&#34;&gt;4.1. Xây dựng ứng dụng Console
+&lt;/h3&gt;&lt;p&gt;Bắt đầu với các ứng dụng console nhỏ như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quản lý danh bạ&lt;/li&gt;
+&lt;li&gt;Quản lý thư viện sách&lt;/li&gt;
+&lt;li&gt;Quản lý ngân hàng&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;42-xây-dựng-ứng-dụng-web-với-spring-boot&#34;&gt;4.2. Xây dựng ứng dụng web với Spring Boot
+&lt;/h3&gt;&lt;p&gt;Spring Boot là một framework phổ biến giúp phát triển ứng dụng web nhanh chóng. Hãy bắt đầu với một dự án Spring Boot đơn giản và dần dần phát triển các tính năng phức tạp hơn, như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quản lý người dùng (đăng ký, đăng nhập)&lt;/li&gt;
+&lt;li&gt;Quản lý sản phẩm hoặc dịch vụ&lt;/li&gt;
+&lt;li&gt;Tích hợp với cơ sở dữ liệu và xây dựng API RESTful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;43-quản-lý-cơ-sở-dữ-liệu-với-hibernate&#34;&gt;4.3. Quản lý cơ sở dữ liệu với Hibernate
+&lt;/h3&gt;&lt;p&gt;Học cách sử dụng Hibernate để làm việc với cơ sở dữ liệu, ví dụ như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo các bảng dữ liệu trong cơ sở dữ liệu SQL&lt;/li&gt;
+&lt;li&gt;Thực hiện các thao tác CRUD (Create, Read, Update, Delete)&lt;/li&gt;
+&lt;li&gt;Quản lý kết nối cơ sở dữ liệu và sử dụng Spring Data JPA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-tiến-xa-hơn-với-java&#34;&gt;5. Tiến xa hơn với Java
+&lt;/h2&gt;&lt;p&gt;Sau khi bạn đã xây dựng một số ứng dụng thực tế, hãy tìm hiểu thêm về các chủ đề nâng cao trong Java:&lt;/p&gt;
+&lt;h3 id=&#34;51-xử-lý-đa-luồng-multithreading&#34;&gt;5.1. Xử lý đa luồng (Multithreading)
+&lt;/h3&gt;&lt;p&gt;Học cách sử dụng đa luồng để tối ưu hóa hiệu suất của ứng dụng và thực hiện các tác vụ song song.&lt;/p&gt;
+&lt;h3 id=&#34;52-thiết-kế-phần-mềm&#34;&gt;5.2. Thiết kế phần mềm
+&lt;/h3&gt;&lt;p&gt;Tìm hiểu về các mẫu thiết kế phần mềm (design patterns) như Singleton, Factory, Observer, và nhiều mẫu khác để xây dựng phần mềm linh hoạt và dễ bảo trì.&lt;/p&gt;
+&lt;h3 id=&#34;53-kiểm-thử-testing&#34;&gt;5.3. Kiểm thử (Testing)
+&lt;/h3&gt;&lt;p&gt;Học cách kiểm thử ứng dụng Java của bạn với các công cụ như JUnit và Mockito.&lt;/p&gt;
+&lt;h3 id=&#34;54-tối-ưu-hóa-hiệu-suất&#34;&gt;5.4. Tối ưu hóa hiệu suất
+&lt;/h3&gt;&lt;p&gt;Tìm hiểu cách tối ưu hóa hiệu suất của ứng dụng Java, bao gồm việc quản lý bộ nhớ và tối ưu hóa các thuật toán.&lt;/p&gt;
+&lt;h2 id=&#34;kết-luận&#34;&gt;Kết luận
+&lt;/h2&gt;&lt;p&gt;Java là một ngôn ngữ lập trình mạnh mẽ và có thể được sử dụng trong nhiều lĩnh vực khác nhau. Với lộ trình học này, bạn sẽ có thể phát triển các ứng dụng Java từ cơ bản đến nâng cao, giúp bạn trở thành một lập trình viên Java chuyên nghiệp.&lt;/p&gt;
+&lt;p&gt;Hãy tiếp tục học hỏi và thực hành để trở thành một chuyên gia trong ngôn ngữ Java!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hướng dẫn cài đặt JavaScript</title>
+        <link>http://localhost:1313/posts/my-first-post3/</link>
+        <pubDate>Thu, 26 Dec 2024 21:09:17 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post3/</guid>
+        <description>&lt;h1 id=&#34;hướng-dẫn-cài-đặt-javascript&#34;&gt;Hướng dẫn cài đặt JavaScript
+&lt;/h1&gt;&lt;p&gt;JavaScript là một ngôn ngữ lập trình phổ biến được sử dụng chủ yếu trong việc phát triển các ứng dụng web và trang web động. Để bắt đầu sử dụng JavaScript, bạn cần cài đặt một số công cụ cơ bản.&lt;/p&gt;
+&lt;h2 id=&#34;bước-1-cài-đặt-trình-duyệt-web&#34;&gt;Bước 1: Cài đặt trình duyệt web
+&lt;/h2&gt;&lt;p&gt;JavaScript có thể chạy trực tiếp trong trình duyệt web, vì vậy bạn cần một trình duyệt hiện đại như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Chrome&lt;/strong&gt;: Trình duyệt nhanh và hỗ trợ đầy đủ các tính năng JavaScript.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mozilla Firefox&lt;/strong&gt;: Trình duyệt mã nguồn mở hỗ trợ JavaScript.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Edge&lt;/strong&gt;: Trình duyệt của Microsoft cũng hỗ trợ JavaScript tốt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hầu hết các trình duyệt web hiện nay đã hỗ trợ JavaScript, vì vậy bạn chỉ cần đảm bảo rằng trình duyệt của bạn đã được cập nhật.&lt;/p&gt;
+&lt;h2 id=&#34;bước-2-cài-đặt-môi-trường-phát-triển-javascript&#34;&gt;Bước 2: Cài đặt môi trường phát triển JavaScript
+&lt;/h2&gt;&lt;p&gt;Mặc dù bạn có thể chạy JavaScript trực tiếp trong trình duyệt, nhưng nếu bạn muốn phát triển các ứng dụng JavaScript phức tạp hơn, bạn sẽ cần cài đặt một số công cụ bổ sung.&lt;/p&gt;
+&lt;h3 id=&#34;1-cài-đặt-nodejs&#34;&gt;1. Cài đặt Node.js
+&lt;/h3&gt;&lt;p&gt;Node.js là môi trường thực thi JavaScript bên ngoài trình duyệt, giúp bạn chạy các ứng dụng JavaScript từ dòng lệnh.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Truy cập trang web &lt;a class=&#34;link&#34; href=&#34;https://nodejs.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Node.js&lt;/a&gt; và tải xuống phiên bản LTS (Long Term Support).&lt;/li&gt;
+&lt;li&gt;Cài đặt Node.js theo hướng dẫn trên trang web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sau khi cài đặt, bạn có thể kiểm tra phiên bản của Node.js và npm (Node Package Manager) bằng cách mở terminal hoặc command prompt và chạy các lệnh sau:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;node -v
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Cách cài đặt Java</title>
+        <link>http://localhost:1313/posts/my-first-post2/</link>
+        <pubDate>Thu, 26 Dec 2024 21:07:23 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post2/</guid>
+        <description>&lt;h2 id=&#34;cách-cài-đặt-java&#34;&gt;Cách cài đặt Java
+&lt;/h2&gt;&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến nhất, được sử dụng rộng rãi trong phát triển ứng dụng di động (Android), web, và phần mềm doanh nghiệp. Dưới đây là hướng dẫn chi tiết về cách cài đặt Java Development Kit (JDK) trên các hệ điều hành phổ biến.&lt;/p&gt;
+&lt;h3 id=&#34;1-cài-đặt-java-trên-windows&#34;&gt;1. Cài đặt Java trên Windows
+&lt;/h3&gt;&lt;p&gt;Để cài đặt Java trên Windows, bạn có thể thực hiện các bước sau:&lt;/p&gt;
+&lt;h4 id=&#34;bước-1-tải-xuống-jdk&#34;&gt;Bước 1: Tải xuống JDK
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Truy cập vào trang tải Java chính thức của Oracle tại &lt;a class=&#34;link&#34; href=&#34;https://www.oracle.com/java/technologies/javase-downloads.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Java Downloads&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Chọn phiên bản JDK (Java Development Kit) phù hợp với hệ điều hành của bạn và tải về.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bước-2-cài-đặt-jdk&#34;&gt;Bước 2: Cài đặt JDK
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Sau khi tải về, chạy tệp cài đặt &lt;code&gt;.exe&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Làm theo hướng dẫn trên màn hình để cài đặt Java.&lt;/li&gt;
+&lt;li&gt;Lưu ý rằng bạn nên ghi nhớ đường dẫn cài đặt, thường là &lt;code&gt;C:\Program Files\Java\jdk-version&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bước-3-cấu-hình-biến-môi-trường-environment-variables&#34;&gt;Bước 3: Cấu hình biến môi trường (Environment Variables)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Mở &amp;ldquo;Control Panel&amp;rdquo; và tìm đến &amp;ldquo;System and Security&amp;rdquo; &amp;gt; &amp;ldquo;System&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Chọn &amp;ldquo;Advanced system settings&amp;rdquo; và nhấp vào &amp;ldquo;Environment Variables&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Trong phần &amp;ldquo;System variables&amp;rdquo;, nhấn vào &amp;ldquo;New&amp;rdquo; để tạo một biến môi trường mới:
+&lt;ul&gt;
+&lt;li&gt;Tên biến: &lt;code&gt;JAVA_HOME&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Giá trị biến: Đường dẫn cài đặt JDK của bạn (ví dụ: &lt;code&gt;C:\Program Files\Java\jdk-17&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tiếp theo, trong phần &amp;ldquo;System variables&amp;rdquo;, tìm và chọn biến &lt;code&gt;Path&lt;/code&gt;, sau đó nhấn &amp;ldquo;Edit&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Thêm đường dẫn &lt;code&gt;bin&lt;/code&gt; vào cuối giá trị của &lt;code&gt;Path&lt;/code&gt;. Ví dụ: &lt;code&gt;C:\Program Files\Java\jdk-17\bin&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bước-4-kiểm-tra-cài-đặt&#34;&gt;Bước 4: Kiểm tra cài đặt
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Mở Command Prompt và gõ lệnh:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;java -version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Giới thiệu về JavaScript</title>
+        <link>http://localhost:1313/posts/my-first-post1/</link>
+        <pubDate>Thu, 26 Dec 2024 20:57:30 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post1/</guid>
+        <description>&lt;h1 id=&#34;giới-thiệu-về-javascript&#34;&gt;Giới thiệu về JavaScript
+&lt;/h1&gt;&lt;p&gt;JavaScript là một ngôn ngữ lập trình phổ biến, được sử dụng chủ yếu để phát triển các ứng dụng web động. Đây là một trong ba công nghệ chính giúp xây dựng các trang web tương tác (cùng với HTML và CSS). JavaScript đã trở thành ngôn ngữ không thể thiếu trong phát triển web hiện đại và được hỗ trợ trên hầu hết các trình duyệt web.&lt;/p&gt;
+&lt;h3 id=&#34;javascript-là-gì&#34;&gt;&lt;strong&gt;JavaScript là gì?&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;JavaScript (hay còn gọi là JS) là một ngôn ngữ lập trình kịch bản (scripting language) được sử dụng để tạo ra các hiệu ứng động và tương tác trên các trang web. Nó là ngôn ngữ phía khách hàng (client-side), có nghĩa là mã JavaScript được thực thi trên trình duyệt của người dùng thay vì trên máy chủ. Tuy nhiên, với sự ra đời của Node.js, JavaScript cũng có thể chạy trên máy chủ (server-side).&lt;/p&gt;
+&lt;p&gt;JavaScript đã phát triển mạnh mẽ qua các năm và hiện nay là một phần quan trọng của web hiện đại. Hầu hết các trang web đều sử dụng JavaScript để tạo ra trải nghiệm người dùng mượt mà và tương tác cao.&lt;/p&gt;
+&lt;h3 id=&#34;tính-năng-chính-của-javascript&#34;&gt;&lt;strong&gt;Tính năng chính của JavaScript&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tương tác với HTML và CSS&lt;/strong&gt;:
+JavaScript cho phép bạn thay đổi nội dung HTML và CSS của một trang web mà không cần phải tải lại trang. Điều này giúp tạo ra các hiệu ứng động, như thay đổi màu sắc, ẩn/hiện các phần tử, thay đổi nội dung mà không làm mới trang.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Xử lý sự kiện&lt;/strong&gt;:
+JavaScript giúp xử lý các sự kiện như click chuột, di chuột, nhập liệu từ bàn phím, và nhiều sự kiện khác, giúp trang web trở nên tương tác với người dùng.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Xử lý dữ liệu không đồng bộ&lt;/strong&gt;:
+Với các công cụ như AJAX và Fetch API, JavaScript cho phép bạn thực hiện các yêu cầu HTTP không đồng bộ mà không cần phải tải lại trang, điều này rất quan trọng trong các ứng dụng web hiện đại.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hỗ trợ lập trình hướng đối tượng&lt;/strong&gt;:
+JavaScript hỗ trợ lập trình hướng đối tượng, cho phép bạn tạo các đối tượng và lớp (class) để tổ chức mã nguồn tốt hơn, giúp việc phát triển ứng dụng phức tạp trở nên dễ dàng hơn.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chạy trên mọi trình duyệt&lt;/strong&gt;:
+JavaScript được hỗ trợ trên tất cả các trình duyệt hiện đại, điều này giúp đảm bảo rằng mã JavaScript của bạn có thể chạy trên hầu hết mọi thiết bị và hệ điều hành.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;ứng-dụng-của-javascript&#34;&gt;&lt;strong&gt;Ứng dụng của JavaScript&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;JavaScript được sử dụng rộng rãi trong nhiều lĩnh vực của phát triển web, bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Xây dựng trang web động&lt;/strong&gt;: JavaScript là công cụ quan trọng trong việc tạo ra các trang web có tính tương tác cao, chẳng hạn như các biểu mẫu đăng nhập, giỏ hàng điện tử, và các hiệu ứng như chuyển động, thay đổi nội dung trang.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ứng dụng di động&lt;/strong&gt;: JavaScript có thể được sử dụng để phát triển ứng dụng di động thông qua các framework như React Native.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phát triển phía máy chủ&lt;/strong&gt;: Với Node.js, JavaScript có thể được sử dụng để phát triển các ứng dụng phía máy chủ, giúp xây dựng API, xử lý yêu cầu HTTP, và lưu trữ dữ liệu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ứng dụng một trang (SPA)&lt;/strong&gt;: JavaScript được sử dụng trong việc phát triển các ứng dụng một trang (Single Page Applications), nơi mà người dùng không cần tải lại toàn bộ trang khi thực hiện các hành động trên web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;các-framework-và-thư-viện-phổ-biến&#34;&gt;&lt;strong&gt;Các Framework và Thư viện phổ biến&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;React.js&lt;/strong&gt;: Một thư viện JavaScript phổ biến để xây dựng giao diện người dùng (UI), đặc biệt trong các ứng dụng web động.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Angular&lt;/strong&gt;: Một framework JavaScript mạnh mẽ để phát triển ứng dụng web phức tạp với các tính năng như routing, form handling và nhiều hơn nữa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vue.js&lt;/strong&gt;: Một framework JavaScript nhẹ và dễ học, thường được sử dụng để xây dựng giao diện người dùng tương tác.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;: Một nền tảng cho phép chạy JavaScript trên máy chủ, giúp phát triển các ứng dụng web và API hiệu quả.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jQuery&lt;/strong&gt;: Một thư viện JavaScript phổ biến, tuy hiện nay ít được sử dụng hơn vì các framework hiện đại, nhưng vẫn có vai trò quan trọng trong việc thao tác DOM và xử lý sự kiện.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;kết-luận&#34;&gt;&lt;strong&gt;Kết luận&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;JavaScript là một ngôn ngữ mạnh mẽ và không thể thiếu trong phát triển web hiện đại. Với khả năng tương tác trực tiếp với HTML và CSS, khả năng xử lý dữ liệu không đồng bộ, cùng với các thư viện và framework mạnh mẽ, JavaScript tiếp tục giữ vai trò quan trọng trong việc xây dựng các ứng dụng web và di động. Nếu bạn muốn phát triển web hoặc các ứng dụng di động, việc học JavaScript chắc chắn là một bước đi cần thiết.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Giới thiệu về Java</title>
+        <link>http://localhost:1313/posts/my-first-post/</link>
+        <pubDate>Thu, 26 Dec 2024 20:46:34 +0700</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post/</guid>
+        <description>&lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến nhất trên thế giới, được phát triển bởi Sun Microsystems (nay là Oracle). Java đã ra đời vào năm 1995 và từ đó đến nay đã trở thành ngôn ngữ lập trình hàng đầu trong nhiều lĩnh vực, đặc biệt là trong phát triển ứng dụng web, ứng dụng di động, và hệ thống doanh nghiệp.&lt;/p&gt;
+&lt;h3 id=&#34;tại-sao-chọn-java&#34;&gt;Tại sao chọn Java?
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Khả năng di động&lt;/strong&gt;: Java được thiết kế với nguyên lý &amp;ldquo;Viết một lần, chạy mọi nơi&amp;rdquo;. Điều này có nghĩa là một ứng dụng Java có thể chạy trên bất kỳ nền tảng nào có Java Virtual Machine (JVM), giúp các ứng dụng Java có tính di động cao.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ngôn ngữ hướng đối tượng&lt;/strong&gt;: Java sử dụng mô hình lập trình hướng đối tượng (OOP), giúp tổ chức mã nguồn một cách hiệu quả và dễ dàng bảo trì.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Thư viện phong phú&lt;/strong&gt;: Java cung cấp một lượng lớn các thư viện và API hỗ trợ các tác vụ khác nhau, từ xử lý tệp tin, kết nối cơ sở dữ liệu đến xây dựng giao diện người dùng.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;các-khái-niệm-cơ-bản-trong-java&#34;&gt;Các khái niệm cơ bản trong Java
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Biến&lt;/strong&gt;: Là nơi lưu trữ dữ liệu trong bộ nhớ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lớp (Class)&lt;/strong&gt;: Là khuôn mẫu để tạo đối tượng trong Java.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đối tượng (Object)&lt;/strong&gt;: Là thể hiện của một lớp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phương thức (Method)&lt;/strong&gt;: Là các hàm hoặc hành động mà đối tượng có thể thực hiện.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ví-dụ-đơn-giản-về-chương-trình-java&#34;&gt;Ví dụ đơn giản về chương trình Java
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

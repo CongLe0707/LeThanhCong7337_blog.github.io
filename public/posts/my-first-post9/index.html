@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="10 Bài Tập Java Nâng Cao 1. Chương Trình Quản Lý Sinh Viên Mô Tả: Xây dựng một chương trình quản lý sinh viên đơn giản.\nYêu Cầu:\nTạo lớp Student với các thuộc tính id, name, age, grade, và các phương thức như getDetails(), setGrade(), updateDetails(). Lớp StudentManager quản lý một danh sách các sinh viên và có các phương thức để thêm, xóa và sửa thông tin sinh viên. Hiển thị danh sách sinh viên trong hệ thống. 2. Thuật Toán Tìm Kiếm Nhị Phân Mô Tả: Cài đặt thuật toán tìm kiếm nhị phân.\n">
+<title>Bài tập java nâng cao</title>
+
+<link rel='canonical' href='http://localhost:1313/posts/my-first-post9/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Bài tập java nâng cao">
+<meta property='og:description' content="10 Bài Tập Java Nâng Cao 1. Chương Trình Quản Lý Sinh Viên Mô Tả: Xây dựng một chương trình quản lý sinh viên đơn giản.\nYêu Cầu:\nTạo lớp Student với các thuộc tính id, name, age, grade, và các phương thức như getDetails(), setGrade(), updateDetails(). Lớp StudentManager quản lý một danh sách các sinh viên và có các phương thức để thêm, xóa và sửa thông tin sinh viên. Hiển thị danh sách sinh viên trong hệ thống. 2. Thuật Toán Tìm Kiếm Nhị Phân Mô Tả: Cài đặt thuật toán tìm kiếm nhị phân.\n">
+<meta property='og:url' content='http://localhost:1313/posts/my-first-post9/'>
+<meta property='og:site_name' content='Lê Thành Công'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2024-12-26T21:50:52&#43;07:00'/><meta property='article:modified_time' content='2024-12-26T21:50:52&#43;07:00'/>
+<meta name="twitter:site" content="@@your_twitter_username">
+    <meta name="twitter:creator" content="@@your_twitter_username"><meta name="twitter:title" content="Bài tập java nâng cao">
+<meta name="twitter:description" content="10 Bài Tập Java Nâng Cao 1. Chương Trình Quản Lý Sinh Viên Mô Tả: Xây dựng một chương trình quản lý sinh viên đơn giản.\nYêu Cầu:\nTạo lớp Student với các thuộc tính id, name, age, grade, và các phương thức như getDetails(), setGrade(), updateDetails(). Lớp StudentManager quản lý một danh sách các sinh viên và có các phương thức để thêm, xóa và sửa thông tin sinh viên. Hiển thị danh sách sinh viên trong hệ thống. 2. Thuật Toán Tìm Kiếm Nhị Phân Mô Tả: Cài đặt thuật toán tìm kiếm nhị phân.\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/hehe_hu1702438883502097993.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Lê Thành Công</a></h1>
+            <h2 class="site-description">Web Developer</h2>
+        </div>
+    </header>
+
+    <div class="personal-info">
+        <p><strong>Phone:</strong> &#43;123 456 789</p>
+        <p><strong>Email:</strong> <a href="mailto:thanhcong77@gmail.com">thanhcong77@gmail.com</a></p>
+        <p><strong>Birthdate:</strong> Jul 07, 2003</p>
+    </div>
+
+    <ol class="menu">
+        
+        
+    </ol>
+
+    <ol class="menu-bottom-section">
+        <ol class="menu">
+            <li id="i18n-switch">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                    
+                        <option value="http://localhost:1313/" selected></option>
+                    
+                </select>
+            </li>
+
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </ol>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/my-first-post9/">Bài tập java nâng cao</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 26, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="10-bài-tập-java-nâng-cao">10 Bài Tập Java Nâng Cao
+</h1><h2 id="1-chương-trình-quản-lý-sinh-viên">1. Chương Trình Quản Lý Sinh Viên
+</h2><p><strong>Mô Tả</strong>: Xây dựng một chương trình quản lý sinh viên đơn giản.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Tạo lớp <code>Student</code> với các thuộc tính <code>id</code>, <code>name</code>, <code>age</code>, <code>grade</code>, và các phương thức như <code>getDetails()</code>, <code>setGrade()</code>, <code>updateDetails()</code>.</li>
+<li>Lớp <code>StudentManager</code> quản lý một danh sách các sinh viên và có các phương thức để thêm, xóa và sửa thông tin sinh viên.</li>
+<li>Hiển thị danh sách sinh viên trong hệ thống.</li>
+</ul>
+<h2 id="2-thuật-toán-tìm-kiếm-nhị-phân">2. Thuật Toán Tìm Kiếm Nhị Phân
+</h2><p><strong>Mô Tả</strong>: Cài đặt thuật toán tìm kiếm nhị phân.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Viết phương thức <code>binarySearch(int[] arr, int target)</code> để tìm kiếm một phần tử trong mảng đã sắp xếp.</li>
+<li>Trả về chỉ số của phần tử nếu tìm thấy, nếu không tìm thấy, trả về <code>-1</code>.</li>
+</ul>
+<h2 id="3-chương-trình-quản-lý-ngân-hàng">3. Chương Trình Quản Lý Ngân Hàng
+</h2><p><strong>Mô Tả</strong>: Xây dựng một hệ thống ngân hàng đơn giản.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Tạo lớp <code>Account</code> với các phương thức <code>deposit()</code>, <code>withdraw()</code>, <code>getBalance()</code>.</li>
+<li>Cung cấp phương thức để nạp và rút tiền từ tài khoản.</li>
+<li>Tạo lớp <code>Bank</code> để quản lý danh sách tài khoản ngân hàng và cho phép tạo, xóa tài khoản.</li>
+</ul>
+<h2 id="4-chương-trình-quản-lý-thư-viện">4. Chương Trình Quản Lý Thư Viện
+</h2><p><strong>Mô Tả</strong>: Xây dựng một chương trình quản lý thư viện.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Tạo lớp <code>Book</code> với các thuộc tính như <code>title</code>, <code>author</code>, <code>isbn</code>, và <code>status</code> (có sẵn/đã mượn).</li>
+<li>Tạo lớp <code>Library</code> để quản lý danh sách sách.</li>
+<li>Viết các phương thức thêm, xóa sách, mượn và trả sách, cùng chức năng hiển thị sách có sẵn.</li>
+</ul>
+<h2 id="5-ứng-dụng-quản-lý-danh-bạ">5. Ứng Dụng Quản Lý Danh Bạ
+</h2><p><strong>Mô Tả</strong>: Xây dựng một ứng dụng quản lý danh bạ điện thoại.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Tạo lớp <code>Contact</code> với các thuộc tính như <code>name</code>, <code>phoneNumber</code>, <code>email</code>.</li>
+<li>Cung cấp các chức năng như tìm kiếm, thêm, sửa, xóa liên lạc trong danh bạ.</li>
+</ul>
+<h2 id="6-chương-trình-tính-toán-fibonacci">6. Chương Trình Tính Toán Fibonacci
+</h2><p><strong>Mô Tả</strong>: Tính toán số Fibonacci bằng đệ quy và vòng lặp.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Viết một phương thức đệ quy để tính giá trị Fibonacci thứ <code>n</code>.</li>
+<li>Viết một phương thức vòng lặp để tính giá trị Fibonacci thứ <code>n</code>.</li>
+</ul>
+<h2 id="7-quản-lý-môn-học-và-sinh-viên">7. Quản Lý Môn Học và Sinh Viên
+</h2><p><strong>Mô Tả</strong>: Quản lý các môn học mà sinh viên đã đăng ký.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Tạo lớp <code>Course</code> với các thuộc tính <code>courseId</code>, <code>courseName</code>.</li>
+<li>Tạo lớp <code>Student</code> và liên kết sinh viên với các môn học mà họ đăng ký.</li>
+<li>Cung cấp các phương thức như đăng ký môn học, hiển thị danh sách môn học của sinh viên.</li>
+</ul>
+<h2 id="8-thuật-toán-sắp-xếp-nổi-bọt">8. Thuật Toán Sắp Xếp Nổi Bọt
+</h2><p><strong>Mô Tả</strong>: Cài đặt thuật toán sắp xếp nổi bọt (Bubble Sort).</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Viết một phương thức sắp xếp mảng số nguyên theo thứ tự tăng dần sử dụng thuật toán sắp xếp nổi bọt.</li>
+<li>Hiển thị mảng đã sắp xếp.</li>
+</ul>
+<h2 id="9-chương-trình-kiểm-tra-số-nguyên-tố">9. Chương Trình Kiểm Tra Số Nguyên Tố
+</h2><p><strong>Mô Tả</strong>: Kiểm tra một số có phải là số nguyên tố hay không.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Viết phương thức <code>isPrime(int number)</code> để kiểm tra xem một số có phải là số nguyên tố không.</li>
+<li>Nếu số chia hết cho bất kỳ số nào từ 2 đến căn bậc hai của nó, trả về <code>false</code>. Nếu không, trả về <code>true</code>.</li>
+</ul>
+<h2 id="10-hệ-thống-quản-lý-hóa-đơn">10. Hệ Thống Quản Lý Hóa Đơn
+</h2><p><strong>Mô Tả</strong>: Xây dựng hệ thống quản lý hóa đơn cho cửa hàng.</p>
+<p><strong>Yêu Cầu</strong>:</p>
+<ul>
+<li>Tạo lớp <code>Invoice</code> với các thuộc tính như <code>invoiceId</code>, <code>customerName</code>, <code>items</code> (danh sách các mặt hàng).</li>
+<li>Tạo lớp <code>Item</code> với các thuộc tính <code>itemName</code>, <code>price</code>, <code>quantity</code>.</li>
+<li>Tạo phương thức tính tổng hóa đơn, thêm mặt hàng vào hóa đơn và hiển thị hóa đơn.</li>
+</ul>
+<hr>
+<p>Các bài tập trên không chỉ giúp bạn cải thiện kỹ năng lập trình Java mà còn cung cấp cái nhìn sâu sắc về cách tổ chức và quản lý các chương trình phức tạp hơn. Chúc bạn thành công với các bài tập này!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Lê Thành Công
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.7b9eadc5b8d9e31a42d738a8c83ca7c413bea7c10e273333e436a75ee4ce5d25.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

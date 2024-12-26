@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Lê Thành Công'
+theme = 'hugo-theme-stack-master'
+
+# Thông tin cá nhân
+[author]
+name = "John Doe"
+email = "john.doe@example.com"
+bio = "I am a web developer passionate about open-source software and blogging."
+twitter = "https://twitter.com/johndoe"
+github = "https://github.com/johndoe"
+linkedin = "https://www.linkedin.com/in/johndoe/"
+
+# Thông tin liên hệ
+[params]
+  contact_email = "contact@example.com"
+  phone = "+1234567890"
